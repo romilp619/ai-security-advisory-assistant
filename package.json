@@ -1,0 +1,65 @@
+{
+  "name": "ai-security-advisory-assistant",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev": "next dev --hostname 127.0.0.1",
+    "build": "next build",
+    "start": "next start --hostname 127.0.0.1",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:live": "node --env-file-if-exists=.env.local node_modules/vitest/vitest.mjs run tests/live.test.ts",
+    "test:e2e": "playwright test",
+    "ingest": "tsx --env-file-if-exists=.env.local scripts/ingest.ts",
+    "studio": "sanity dev",
+    "schema:deploy": "sanity schema deploy",
+    "check:nvidia": "tsx --env-file-if-exists=.env.local scripts/benchmark-nvidia.ts",
+    "ingest:discover": "tsx --env-file-if-exists=.env.local scripts/ingest.ts --discover"
+  },
+  "dependencies": {
+    "@ai-sdk/anthropic": "^3.0.0",
+    "@ai-sdk/mcp": "1.0.83",
+    "@ai-sdk/openai": "^3.0.0",
+    "@gsap/react": "^2.1.2",
+    "@radix-ui/react-dialog": "^1.1.0",
+    "@radix-ui/react-tabs": "^1.1.0",
+    "@sanity/client": "^7.0.0",
+    "ai": "6.0.288",
+    "gsap": "^3.15.0",
+    "lucide-react": "^0.577.0",
+    "next": "16.3.6",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "sanity": "6.16.0",
+    "semver": "^7.7.0",
+    "styled-components": "^6.1.15",
+    "zod": "^4.0.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.58.0",
+    "@tailwindcss/postcss": "^4.0.0",
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@types/semver": "^7.7.0",
+    "eslint": "^9.0.0",
+    "eslint-config-next": "16.3.6",
+    "tailwindcss": "^4.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.9.0",
+    "vitest": "^4.0.0"
+  },
+  "type": "module",
+  "overrides": {
+    "adm-zip": "^0.6.1",
+    "js-yaml": "^4.3.0",
+    "smol-toml": "^1.7.1",
+    "typeid-js": {
+      "uuid": "^11.1.1"
+    }
+  }
+}

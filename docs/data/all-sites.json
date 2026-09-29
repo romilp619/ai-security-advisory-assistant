@@ -1,0 +1,4767 @@
+[
+ {
+  "href": "https://www.dkton.at/",
+  "name": "Dkton",
+  "author": "Barry Baris Dogan",
+  "plugins": [
+   "ScrollTrigger",
+   "ScrambleText",
+   "CustomEase"
+  ]
+ },
+ {
+  "href": "https://a24.raviklaassens.com/",
+  "name": "A24",
+  "author": "Ravi Klaassens",
+  "plugins": [
+   "ScrollTrigger",
+   "Observer",
+   "Draggable",
+   "Flip",
+   "Inertia",
+   "CustomEase"
+  ]
+ },
+ {
+  "href": "https://bulbs.simondupety.com/",
+  "name": "Bulbs by Simon Dupety",
+  "author": "Joffrey Spitzer",
+  "plugins": [
+   "ScrollTrigger",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://khanhnguyen.design/",
+  "name": "Khanh Nguyen Portfolio",
+  "author": "Khanh Nguyen",
+  "plugins": [
+   "ScrollTrigger",
+   "ScrollSmoother",
+   "Text",
+   "ScrollTo",
+   "useGSAP"
+  ]
+ },
+ {
+  "href": "https://www.doordennis.nl/",
+  "name": "Door Dennis",
+  "author": "Dennis Janssen",
+  "plugins": [
+   "ScrollTrigger",
+   "SplitText",
+   "CustomEase",
+   "ScrollTo"
+  ]
+ },
+ {
+  "href": "https://www.lxlcreative.co.uk/",
+  "name": "LxL Creative",
+  "author": "Jordan Gilroy",
+  "plugins": [
+   "ScrollTrigger",
+   "Observer",
+   "DrawSVG",
+   "Draggable",
+   "Inertia",
+   "CustomEase"
+  ]
+ },
+ {
+  "href": "https://illoca.unseen.co/",
+  "name": "Illoca",
+  "author": "Unseen Studio",
+  "plugins": [
+   "ScrollTrigger",
+   "SplitText",
+   "CustomEase"
+  ]
+ },
+ {
+  "href": "https://emotion-agency.com/",
+  "name": "Emotion Agency",
+  "author": "Emotion Agency",
+  "plugins": [
+   "ScrollTrigger",
+   "MorphSVG",
+   "SplitText",
+   "CustomEase"
+  ]
+ },
+ {
+  "href": "https://www.forms.world/",
+  "name": "Forms",
+  "author": "Beaucoup",
+  "plugins": [
+   "ScrollTrigger",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://trymira.com/",
+  "name": "MIRA",
+  "author": "Adelt Design Agency",
+  "plugins": [
+   "ScrollSmoother",
+   "Observer",
+   "MorphSVG",
+   "Text",
+   "ScrollTo"
+  ]
+ },
+ {
+  "href": "https://mattjinn.com/",
+  "name": "Matt Jinn",
+  "author": "Williams Alamu and Luis Bizarro",
+  "plugins": [
+   "SplitText",
+   "CustomEase"
+  ]
+ },
+ {
+  "href": "https://huyml.co/",
+  "name": "Huy Phan Portfolio",
+  "author": "Huy Phan and Chien Pham",
+  "plugins": [
+   "ScrollTrigger",
+   "ScrollSmoother"
+  ]
+ },
+ {
+  "href": "https://forgeautomotive.co.uk/",
+  "name": "Forge Automotive",
+  "author": "Joe Ben Taylor, 12 Studio and Adam Roberts",
+  "plugins": [
+   "ScrollTrigger",
+   "Observer",
+   "SplitText",
+   "CustomEase",
+   "useGSAP"
+  ]
+ },
+ {
+  "href": "https://www.family.ikea.es/demos/desmontando-los-30/",
+  "name": "IKEA “Taking Apart the 30” (30 Anniversary)",
+  "author": "MRM Spain, /nk.studio and Mach Studio",
+  "plugins": [
+   "ScrollTrigger",
+   "SplitText",
+   "useGSAP"
+  ]
+ },
+ {
+  "href": "https://davidecattaneo.it/",
+  "name": "Davide Cattaneo",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "SplitText",
+   "ScrambleText",
+   "CustomEase"
+  ]
+ },
+ {
+  "href": "https://revelatio.studio/",
+  "name": "Revelatio Studio",
+  "author": "Revelatio Studio",
+  "plugins": [
+   "ScrollTrigger",
+   "Observer",
+   "SplitText",
+   "ScrambleText"
+  ]
+ },
+ {
+  "href": "https://cipharvin.ro/en",
+  "name": "Cip Harvin - Transportation Company",
+  "author": "Adrian Dascal",
+  "plugins": [
+   "ScrollTrigger",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://michaelgatt.com/",
+  "name": "Michael Gatt",
+  "author": "Synchronized Studio",
+  "plugins": [
+   "MotionPath",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://nickho-motorsports.nl/",
+  "name": "Nick Ho",
+  "author": "BORING",
+  "plugins": [
+   "ScrollTrigger",
+   "SplitText",
+   "CustomEase"
+  ]
+ },
+ {
+  "href": "https://office.graffico.it/",
+  "name": "Graffico Office",
+  "author": "Graffico Studio",
+  "plugins": [
+   "GSAP Core"
+  ]
+ },
+ {
+  "href": "https://harshdayal.dev/",
+  "name": "Harsh' Portfolio",
+  "author": "Harsh Dayal",
+  "plugins": [
+   "ScrollTrigger",
+   "useGSAP"
+  ]
+ },
+ {
+  "href": "https://chasing-the-moment.byholm.co/",
+  "name": "Chasing the Moment",
+  "author": "Canberk Polat",
+  "plugins": [
+   "ScrollTrigger"
+  ]
+ },
+ {
+  "href": "https://sk-visualarchive.vercel.app/",
+  "name": "SK — Visual Archive",
+  "author": "Kaisei Sadatoki",
+  "plugins": [
+   "ScrollTrigger"
+  ]
+ },
+ {
+  "href": "https://jasonbradley.co/",
+  "name": "Jason Bradley Portfolio",
+  "author": "Bruno Arizio and Jason Bradley",
+  "plugins": [
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://debabratagiri.vercel.app/",
+  "name": "Debabrata Giri",
+  "author": "",
+  "plugins": [
+   "DrawSVG",
+   "Draggable",
+   "Inertia"
+  ]
+ },
+ {
+  "href": "https://www.gionatannese.com/",
+  "name": "Gionatan Nese '26",
+  "author": "Gionatan Nese",
+  "plugins": [
+   "ScrollTrigger",
+   "SplitText",
+   "Text",
+   "CustomEase",
+   "useGSAP"
+  ]
+ },
+ {
+  "href": "https://www.schemeengine.com/",
+  "name": "Scheme Engine",
+  "author": "Nkenna Amadi and The Blackpepper Studio",
+  "plugins": [
+   "ScrollTrigger",
+   "Observer"
+  ]
+ },
+ {
+  "href": "https://www.runrobrun.com/",
+  "name": "run rob run",
+  "author": "Robert Aperios",
+  "plugins": [
+   "ScrollTrigger",
+   "ScrollSmoother",
+   "Observer",
+   "Draggable",
+   "SplitText",
+   "Inertia"
+  ]
+ },
+ {
+  "href": "https://gsap.com/showcase/?page=9",
+  "name": "Studio Camino",
+  "author": "Mike Durney",
+  "plugins": [
+   "ScrollTrigger",
+   "ScrollSmoother",
+   "DrawSVG",
+   "MotionPath",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://bleibtgleich.dev/",
+  "name": "bleibtgleich'26",
+  "author": "Maksym Ponomarenko",
+  "plugins": [
+   "ScrollTrigger",
+   "MorphSVG",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://jesperlandberg.com/",
+  "name": "Jesper Landberg",
+  "author": "Jesper Landberg",
+  "plugins": [
+   "GSAP Core"
+  ]
+ },
+ {
+  "href": "https://specia1ne.com/",
+  "name": "Specia1ne",
+  "author": "Oleh Koval",
+  "plugins": [
+   "ScrollTrigger"
+  ]
+ },
+ {
+  "href": "https://www.nodeck.online/",
+  "name": "Nodeck",
+  "author": "Bogdan Kolomiyets",
+  "plugins": [
+   "ScrollTrigger",
+   "Observer",
+   "DrawSVG",
+   "Draggable",
+   "Flip",
+   "SplitText",
+   "Inertia"
+  ]
+ },
+ {
+  "href": "https://www.creativeed.dev/",
+  "name": "Creativeed Portfolio",
+  "author": "Ed",
+  "plugins": [
+   "ScrollTrigger",
+   "Draggable"
+  ]
+ },
+ {
+  "href": "https://manishkr.xyz/",
+  "name": "Manish's Portfolio",
+  "author": "Manish Kumar",
+  "plugins": [
+   "ScrollTrigger",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://a-lign.studio/",
+  "name": "a-lign studio",
+  "author": "a-lign studio, Jan Paveo and Tamara Pešić",
+  "plugins": [
+   "ScrollTrigger",
+   "Draggable",
+   "Flip",
+   "SplitText",
+   "ScrambleText",
+   "Inertia",
+   "ScrollTo"
+  ]
+ },
+ {
+  "href": "https://edolus.com/",
+  "name": "Edolus",
+  "author": "Yann Trevelot",
+  "plugins": [
+   "ScrollTrigger"
+  ]
+ },
+ {
+  "href": "https://myshaky.com/gotcha",
+  "name": "Shaky Gotcha",
+  "author": "Allen Tseng",
+  "plugins": [
+   "Observer"
+  ]
+ },
+ {
+  "href": "https://pxpush.com/",
+  "name": "PX PUSH",
+  "author": "Stud, Lewis Webber and PX PUSH",
+  "plugins": [
+   "ScrollTrigger",
+   "Observer"
+  ]
+ },
+ {
+  "href": "https://daoism.systems/",
+  "name": "Daoism Systems",
+  "author": "Lynksen Team and Ross Burylo",
+  "plugins": [
+   "ScrollTrigger",
+   "SplitText",
+   "CustomEase"
+  ]
+ },
+ {
+  "href": "https://houseofyellow.nl/",
+  "name": "House Of Yellow",
+  "author": "Mees Verberne and Ronald de Groot",
+  "plugins": [
+   "ScrollTrigger",
+   "DrawSVG",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://era-residence.com/",
+  "name": "Era Residence",
+  "author": "Ivan Chopei, Maks Stepenko and The First The Last",
+  "plugins": [
+   "ScrollTrigger",
+   "Observer",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://bombon.rs/",
+  "name": "Bombon",
+  "author": "Square43 Studio",
+  "plugins": [
+   "ScrollTrigger",
+   "Draggable",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://silviamalavasi.com/",
+  "name": "Silvia Malavasi Portfolio",
+  "author": "Silvia Malavasi",
+  "plugins": [
+   "ScrollTrigger",
+   "ScrollSmoother",
+   "Observer",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://i-creativ.net/",
+  "name": "I-Creativ Studio",
+  "author": "I-Creativ Studio",
+  "plugins": [
+   "ScrollTrigger",
+   "Flip"
+  ]
+ },
+ {
+  "href": "https://noth.in/",
+  "name": "NOTHIN'",
+  "author": "Pierre Patrault and Visuals IA",
+  "plugins": [
+   "ScrollTrigger",
+   "Flip",
+   "SplitText",
+   "Inertia"
+  ]
+ },
+ {
+  "href": "https://survedaa.com/",
+  "name": "Survedaa",
+  "author": "Jaskirat Singh Bhui",
+  "plugins": [
+   "ScrollTrigger",
+   "Observer"
+  ]
+ },
+ {
+  "href": "https://k95.it/",
+  "name": "Studio K95",
+  "author": "Studio K95 and Danilo De Marco",
+  "plugins": [
+   "ScrollTrigger"
+  ]
+ },
+ {
+  "href": "https://codapress.co.uk/",
+  "name": "Codapress Publishing",
+  "author": "Dave Holloway",
+  "plugins": [
+   "ScrollTrigger",
+   "Observer",
+   "DrawSVG",
+   "Draggable",
+   "SplitText",
+   "Inertia"
+  ]
+ },
+ {
+  "href": "https://beetogreen.com/",
+  "name": "Beetogreen",
+  "author": "Florian Casanova, Ilyane Santoro, Alexandre Ardourel and David Faure",
+  "plugins": [
+   "ScrollTrigger",
+   "Observer",
+   "DrawSVG",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://orwell.byholm.co/",
+  "name": "WHAT IF ORWELL HAD A WEBSITE",
+  "author": "Canberk Polat",
+  "plugins": [
+   "ScrollTrigger",
+   "DrawSVG",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://chungsunglau.co.uk/",
+  "name": "Infinite Digital Scrapbook",
+  "author": "Chung-Sung Lau",
+  "plugins": [
+   "Observer"
+  ]
+ },
+ {
+  "href": "https://www.sharebien.com/",
+  "name": "Share Bien",
+  "author": "Beaucoup",
+  "plugins": [
+   "ScrollTrigger"
+  ]
+ },
+ {
+  "href": "https://clevante.cz/",
+  "name": "Clevante",
+  "author": "Clevante",
+  "plugins": [
+   "ScrollTrigger",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://www.cobloc.archi/",
+  "name": "Cobloc",
+  "author": "Adveris, Thomas Bagnolati and Antoine Piney",
+  "plugins": [
+   "ScrollTrigger",
+   "Draggable",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://indigo-laboratory.it/",
+  "name": "Indigo Laboratory",
+  "author": "FPTP Studio and Marea Studio",
+  "plugins": [
+   "ScrollTrigger"
+  ]
+ },
+ {
+  "href": "https://madewithgsap.com/",
+  "name": "Made With Gsap",
+  "author": "Florent Roux-Durraffourt and Michaël Garcia",
+  "plugins": [
+   "ScrollTrigger",
+   "Observer",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://decathlonyestalgia.com/",
+  "name": "Decathlon Yestalgia",
+  "author": "Index Studio",
+  "plugins": [
+   "ScrollTrigger",
+   "Observer",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://www.saifullah.dev/",
+  "name": "Saifullah.Dev",
+  "author": "Saifullah Butt",
+  "plugins": [
+   "ScrollTrigger",
+   "ScrollSmoother",
+   "SplitText",
+   "ScrambleText"
+  ]
+ },
+ {
+  "href": "https://www.noartmusic.com/",
+  "name": "No Art",
+  "author": "BORING",
+  "plugins": [
+   "ScrollTrigger",
+   "Observer",
+   "Draggable",
+   "Flip",
+   "SplitText",
+   "ScrambleText",
+   "Inertia",
+   "CustomEase"
+  ]
+ },
+ {
+  "href": "https://kononenkogroup.com/",
+  "name": "Kononenko Architectural Bureau",
+  "author": "Artem Shcherban and Reksa Andhika",
+  "plugins": [
+   "ScrollTrigger",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://serotoninn.com/",
+  "name": "Serotoninn",
+  "author": "BL/S®, Artycoders and Serhii Polyvanyi",
+  "plugins": [
+   "ScrollTrigger",
+   "Observer",
+   "Draggable",
+   "SplitText",
+   "Inertia"
+  ]
+ },
+ {
+  "href": "https://ggggarden.com/",
+  "name": "Garden",
+  "author": "Lucas Leandro Batista",
+  "plugins": [
+   "Draggable",
+   "Flip",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://tiltoootilt.tote.co.jp/",
+  "name": "Everything Has Weight",
+  "author": "Tote Inc.",
+  "plugins": [
+   "Draggable",
+   "Inertia"
+  ]
+ },
+ {
+  "href": "https://horizonte-village.com/",
+  "name": "Horizonte",
+  "author": "The First The Last Agency",
+  "plugins": [
+   "ScrollTrigger",
+   "MorphSVG",
+   "DrawSVG",
+   "SplitText",
+   "CustomEase",
+   "ScrollTo"
+  ]
+ },
+ {
+  "href": "https://cheeseandpixels.com/",
+  "name": "Cheese & Pixels",
+  "author": "Ben Graves, Jamie Currie, Andrew Fiddy and Marcell Rideg",
+  "plugins": [
+   "ScrollTrigger",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://showcase.noomoagency.com/",
+  "name": "Noomo Showcase",
+  "author": "Noomo",
+  "plugins": [
+   "ScrollTrigger",
+   "ScrollSmoother",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://sstr.tech/en/",
+  "name": "SSTR Friction Reduction",
+  "author": "Dmitry Golub",
+  "plugins": [
+   "ScrollTrigger",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://www.risk.film/",
+  "name": "RISK",
+  "author": "FLOT NOIR, Clément Merouani and  Thomas Carré",
+  "plugins": [
+   "ScrollTrigger",
+   "Observer"
+  ]
+ },
+ {
+  "href": "https://program.studio/",
+  "name": "Program Studio",
+  "author": "SMLXL and Program Studio",
+  "plugins": [
+   "ScrollTrigger",
+   "Draggable",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://www.robin-thomas.me/",
+  "name": "Robin THOMAS Présentation",
+  "author": "Robin THOMAS",
+  "plugins": [
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://www.voyeurverite.com/",
+  "name": "Voyeur Verite",
+  "author": "BL/S",
+  "plugins": [
+   "ScrollTrigger",
+   "ScrollSmoother",
+   "MorphSVG",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://trionn.com/",
+  "name": "TRIONN",
+  "author": "Sunny Rathod and TRIONN",
+  "plugins": [
+   "ScrollTrigger",
+   "ScrollSmoother",
+   "DrawSVG",
+   "MotionPath",
+   "Draggable",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "http://kommakomma.is/",
+  "name": "Komma Komma",
+  "author": "Óliver Samúelsson and Freyr Elí",
+  "plugins": [
+   "ScrollTrigger",
+   "Observer",
+   "Draggable",
+   "SplitText",
+   "Inertia",
+   "CustomEase"
+  ]
+ },
+ {
+  "href": "https://sondaven.com/en",
+  "name": "Son Daven",
+  "author": "Ivan Chopei, Maks Stepenko and THE FIRST THE LAST",
+  "plugins": [
+   "ScrollTrigger",
+   "Observer",
+   "Flip",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://pahari.vercel.app/",
+  "name": "Pahāri",
+  "author": "Swaraj Singh",
+  "plugins": [
+   "ScrollTrigger",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://hle.io/",
+  "name": "HLE",
+  "author": "The First The Last",
+  "plugins": [
+   "ScrollTrigger",
+   "MotionPath",
+   "ScrollTo"
+  ]
+ },
+ {
+  "href": "https://db-longbow.webflow.io/",
+  "name": "Longbow",
+  "author": "Digital Butlers",
+  "plugins": [
+   "ScrollTrigger",
+   "ScrollSmoother"
+  ]
+ },
+ {
+  "href": "http://cipherdigital.com/",
+  "name": "Cipher Digital",
+  "author": "ONBOX Creative, Elliott Mangham and Matthew Gilbert",
+  "plugins": [
+   "ScrollTrigger",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://belenjones.com/",
+  "name": "Belen Jones",
+  "author": "Belen Jones",
+  "plugins": [
+   "ScrollTrigger"
+  ]
+ },
+ {
+  "href": "https://easyseller.it/",
+  "name": "EASYSELLER",
+  "author": "EGO55 Studio",
+  "plugins": [
+   "ScrollTrigger",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://ten.375.studio/en",
+  "name": "Ten Years Away",
+  "author": "Studio375 and Daniel Basan",
+  "plugins": [
+   "Observer",
+   "Draggable",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://www.project-aperture.com/",
+  "name": "Project Aperture",
+  "author": "Isaak De Coninck",
+  "plugins": [
+   "ScrollTrigger",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://voltlites.com/",
+  "name": "Volt",
+  "author": "Amin Salehi and Eugene Cilliers",
+  "plugins": [
+   "ScrollTrigger",
+   "Observer",
+   "Flip",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://www.coparadiso.com/",
+  "name": "CoParadiso",
+  "author": "Allan Pooley",
+  "plugins": [
+   "ScrollTrigger",
+   "Draggable"
+  ]
+ },
+ {
+  "href": "https://grand-hotel.com.ua/en",
+  "name": "Grand Hotel",
+  "author": "The First The Last Agency",
+  "plugins": [
+   "ScrollTrigger",
+   "DrawSVG",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://www.meech213.com/",
+  "name": "Meech213",
+  "author": "The Blackpepper Studio and Nkenna Amadi",
+  "plugins": [
+   "ScrollTrigger",
+   "Observer"
+  ]
+ },
+ {
+  "href": "https://storytelling.noomoagency.com/",
+  "name": "The Power of Digital Storytelling",
+  "author": "Noomo Agency",
+  "plugins": [
+   "ScrollTrigger",
+   "ScrollSmoother",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://diamondrosesanctuary.com/",
+  "name": "Diamond Rose Sanctuary",
+  "author": "Artemii Lebedev",
+  "plugins": [
+   "ScrollTrigger",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://demo.clapat-templates.com/hayler",
+  "name": "Hayler",
+  "author": "Clapat Studio",
+  "plugins": [
+   "ScrollTrigger",
+   "Flip"
+  ]
+ },
+ {
+  "href": "https://brandonbartram.dev/",
+  "name": "Brandon Bartram Portfolio",
+  "author": "Brandon Bartram",
+  "plugins": [
+   "ScrollTrigger",
+   "ScrollSmoother",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://fame-estate.com/",
+  "name": "Fame Real Estate",
+  "author": "The First The Last Agency",
+  "plugins": [
+   "ScrollTrigger",
+   "SplitText",
+   "CustomEase",
+   "ScrollTo"
+  ]
+ },
+ {
+  "href": "https://ace.directout.eu/",
+  "name": "DirectOut ACE",
+  "author": "Fabio Carretti",
+  "plugins": [
+   "ScrollTrigger",
+   "DrawSVG"
+  ]
+ },
+ {
+  "href": "https://www.lucas-aufrere.com/",
+  "name": "Lucas Aufrere Portfolio",
+  "author": "Lucas Aufrere",
+  "plugins": [
+   "ScrollTrigger",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://ponder.ai/",
+  "name": "Ponder AI",
+  "author": "Artemii Lebedev",
+  "plugins": [
+   "ScrollTrigger",
+   "ScrollSmoother",
+   "MorphSVG",
+   "Flip",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://ekloverse.com/",
+  "name": "Eklo-Verse",
+  "author": "Qriousco Tech",
+  "plugins": [
+   "ScrollTrigger"
+  ]
+ },
+ {
+  "href": "https://podium.global/",
+  "name": "Podium",
+  "author": "San Rita, Benoît Delorme and Sébastien Lempens",
+  "plugins": [
+   "ScrollTrigger",
+   "Flip",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://dontboardme.com/",
+  "name": "Don’t board me",
+  "author": "The First The Last",
+  "plugins": [
+   "ScrollTrigger",
+   "DrawSVG",
+   "SplitText",
+   "CustomEase",
+   "ScrollTo"
+  ]
+ },
+ {
+  "href": "https://www.sutera.ch/",
+  "name": "SUTÉRA",
+  "author": "Clarisse Michard, Adrien Quechon and Okey Studio",
+  "plugins": [
+   "ScrollTrigger",
+   "Draggable",
+   "SplitText",
+   "Inertia"
+  ]
+ },
+ {
+  "href": "https://www.aboutluca.com/",
+  "name": "Aboutluca",
+  "author": "Luca Nardi",
+  "plugins": [
+   "ScrollTrigger"
+  ]
+ },
+ {
+  "href": "https://www.cravburgers.shop/",
+  "name": "Crav Burgers",
+  "author": "Anyflow, Pritam Das and Gaurav Verma",
+  "plugins": [
+   "ScrollTrigger",
+   "SplitText",
+   "Inertia"
+  ]
+ },
+ {
+  "href": "https://hypefluency.com/",
+  "name": "Hypefluency",
+  "author": "Cherry Bomb Creative and Nestor Rios",
+  "plugins": [
+   "ScrollTrigger",
+   "Draggable",
+   "SplitText",
+   "Inertia"
+  ]
+ },
+ {
+  "href": "https://arijayaputra.xyz/",
+  "name": "Arijaya Putra",
+  "author": "Arijaya Putra",
+  "plugins": [
+   "DrawSVG",
+   "MotionPath"
+  ]
+ },
+ {
+  "href": "https://victorfuruya.com/",
+  "name": "Victor Furuya '26",
+  "author": "Victor Furuya",
+  "plugins": [
+   "ScrollTrigger",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://davincii.com/",
+  "name": "DAVINCII",
+  "author": "The First The Last Agency",
+  "plugins": [
+   "ScrollTrigger",
+   "DrawSVG",
+   "SplitText",
+   "CustomEase",
+   "ScrollTo"
+  ]
+ },
+ {
+  "href": "https://www.lukebaffait.fr/",
+  "name": "Luke Baffait - Creative Developer",
+  "author": "Luke Baffait",
+  "plugins": [
+   "ScrollTrigger"
+  ]
+ },
+ {
+  "href": "http://pacomepertant.com/",
+  "name": "Pacôme Pertant Portfolio",
+  "author": "Colin Demouge and Louis Bocquet",
+  "plugins": [
+   "ScrollTrigger",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://k3studios.ae/",
+  "name": "k3Studio",
+  "author": "k3Studio",
+  "plugins": [
+   "ScrollTrigger",
+   "ScrollSmoother"
+  ]
+ },
+ {
+  "href": "https://www.bottega53.com/",
+  "name": "Bottega53",
+  "author": "The First The Last agency",
+  "plugins": [
+   "ScrollTrigger",
+   "SplitText",
+   "CustomEase",
+   "ScrollTo"
+  ]
+ },
+ {
+  "href": "https://www.kvs.services/",
+  "name": "KVS",
+  "author": "Karan Chouhan, Harshit Kumar Sahu and Kirilo Sztarcsak",
+  "plugins": [
+   "ScrollTrigger",
+   "Observer",
+   "Draggable",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://apex-psi-indol.vercel.app/",
+  "name": "Apex",
+  "author": "Alex Moulinneuf and Nicolás Navarro",
+  "plugins": [
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://sohub.digital/",
+  "name": "Sohub",
+  "author": "Socrates Omiliadis and Themis Chrysafidis",
+  "plugins": [
+   "ScrollTrigger",
+   "Flip",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://fifthdune.wpenginepowered.com/",
+  "name": "Fifth & Dune",
+  "author": "Dead on Design",
+  "plugins": [
+   "ScrollTrigger",
+   "ScrollSmoother",
+   "Observer",
+   "Flip",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "http://danielkorr.site/",
+  "name": "DANIEL KORR",
+  "author": "Thokozani Mavuso",
+  "plugins": [
+   "ScrollTrigger",
+   "Flip",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://vision.doanbao.com/",
+  "name": "Škoda Vision Concept",
+  "author": "Bao Nam Doan",
+  "plugins": [
+   "ScrollTrigger",
+   "ScrollSmoother"
+  ]
+ },
+ {
+  "href": "https://keytom.com/",
+  "name": "Keytom",
+  "author": "ADELT Agency",
+  "plugins": [
+   "ScrollTrigger",
+   "ScrollSmoother",
+   "MotionPath",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://bisous-production.com/",
+  "name": "Bisous",
+  "author": "Beaucoup Studio",
+  "plugins": [
+   "ScrollTrigger"
+  ]
+ },
+ {
+  "href": "https://aventuradentalarts.com/",
+  "name": "ADA",
+  "author": "The First The Last Agency",
+  "plugins": [
+   "ScrollTrigger",
+   "Flip",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://www.mschristensen.com/",
+  "name": "Morten Stig Christensen",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "Observer",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://shapeshiftfestival.com/",
+  "name": "SHAPESHIFT 2026",
+  "author": "Next DC - Creative Agency",
+  "plugins": [
+   "ScrollTrigger",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://375.studio/",
+  "name": "Studio375",
+  "author": "Studio375",
+  "plugins": [
+   "ScrollTrigger",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://www.indrajaal-museum.com/",
+  "name": "Indrajaal Museum",
+  "author": "Manmeet Singh Rayat",
+  "plugins": [
+   "ScrollTrigger",
+   "MotionPath"
+  ]
+ },
+ {
+  "href": "https://artefakt.mov/",
+  "name": "Artefakt",
+  "author": "Grégory Lallé and Thomas Monavon",
+  "plugins": [
+   "ScrollTrigger"
+  ]
+ },
+ {
+  "href": "http://jasminegunarto.com/",
+  "name": "Jasmine Gunarto Portfolio",
+  "author": "Diar Adelita Sury and Raihan Rachman",
+  "plugins": [
+   "ScrollTrigger",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://www.sazabi.com/",
+  "name": "Sazabi",
+  "author": "Joyco Studio",
+  "plugins": [
+   "ScrollTrigger",
+   "MorphSVG",
+   "DrawSVG",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://www.thisisstudiox.com/",
+  "name": "Studio X",
+  "author": "Jordan Gilroy",
+  "plugins": [
+   "ScrollTrigger",
+   "Observer",
+   "Draggable",
+   "Flip",
+   "Text",
+   "Inertia",
+   "CustomEase"
+  ]
+ },
+ {
+  "href": "https://maximatherapy.com/",
+  "name": "Maxima Therapy",
+  "author": "KOKI-KIKO, Kim Levan, Louis Paquet, Nicolas Garnier and Anthony Morell",
+  "plugins": [
+   "ScrollTrigger",
+   "MotionPath"
+  ]
+ },
+ {
+  "href": "https://oryzo.ai/",
+  "name": "Oryzo AI",
+  "author": "Studio Lusion",
+  "plugins": [
+   "ScrollTrigger",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://itomdev.com/",
+  "name": "ITOM Portfolio",
+  "author": "Tomasz Szmajda",
+  "plugins": [
+   "ScrollTrigger",
+   "Observer",
+   "Text",
+   "useGSAP"
+  ]
+ },
+ {
+  "href": "https://www.raviklaassens.com/",
+  "name": "Ravi Klaassens Portfolio",
+  "author": "Ravi Klaassens",
+  "plugins": [
+   "ScrollTrigger",
+   "Observer",
+   "MorphSVG",
+   "Flip",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://www.vertex3d.asia/",
+  "name": "Vertex3D",
+  "author": "Yann Trévelot",
+  "plugins": [
+   "ScrollTrigger",
+   "Observer",
+   "ScrambleText",
+   "Inertia",
+   "ScrollTo"
+  ]
+ },
+ {
+  "href": "https://joseph-san.com/",
+  "name": "Joseph Santamaria - Portfolio",
+  "author": "Joseph Santamaria",
+  "plugins": [
+   "ScrollTrigger",
+   "Observer",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://brand.vettvangur.is/",
+  "name": "Vettvangur",
+  "author": "Gilli Kristjansson and Mike Szkudlarek",
+  "plugins": [
+   "ScrollTrigger",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://daveholloway.uk/",
+  "name": "Dave Holloway",
+  "author": "Portfolio",
+  "plugins": [
+   "ScrollTrigger",
+   "Observer",
+   "MorphSVG",
+   "Draggable",
+   "Flip",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://andrewreff.com/",
+  "name": "Andy Reff",
+  "author": "Andy Reff",
+  "plugins": [
+   "ScrollTrigger",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://www.farmminerals.com/",
+  "name": "Farmminerals",
+  "author": "ADELT",
+  "plugins": [
+   "ScrollTrigger",
+   "ScrollSmoother"
+  ]
+ },
+ {
+  "href": "https://hautech-ai-1779501f9888a7601b473cc00235.webflow.io/",
+  "name": "Hautech.ai",
+  "author": "ADELT",
+  "plugins": [
+   "ScrollTrigger"
+  ]
+ },
+ {
+  "href": "https://www.secretlevel.co/",
+  "name": "Secret Level",
+  "author": "Andreas Antonsson",
+  "plugins": [
+   "ScrollTrigger",
+   "Draggable",
+   "Inertia"
+  ]
+ },
+ {
+  "href": "https://www.mersi-architecture.com/",
+  "name": "MERSI - Architecture Studio",
+  "author": "Clément Merouani and Thomas Carré",
+  "plugins": [
+   "ScrollTrigger",
+   "Flip",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://makedesign.tech/",
+  "name": "Make Design",
+  "author": "ADELT",
+  "plugins": [
+   "ScrollTrigger",
+   "Observer"
+  ]
+ },
+ {
+  "href": "https://www.pixelvault.fit/",
+  "name": "Pixel Vault",
+  "author": "Karan Chouhan and Harshit Kumar Sahu",
+  "plugins": [
+   "ScrollTrigger",
+   "Observer"
+  ]
+ },
+ {
+  "href": "https://quietcubes.com/",
+  "name": "Quietcubes",
+  "author": "ADELT",
+  "plugins": [
+   "ScrollTrigger",
+   "ScrollSmoother"
+  ]
+ },
+ {
+  "href": "https://www.feedagency.co/",
+  "name": "FEED Agency",
+  "author": "refreshed DIGITAL, Jan Paveo and Tamara Pešić",
+  "plugins": [
+   "ScrollTrigger",
+   "Draggable",
+   "Inertia",
+   "CustomEase"
+  ]
+ },
+ {
+  "href": "https://www.briskgaurav.in/",
+  "name": "Gaurav's Portfolio",
+  "author": "Gaurav Verma",
+  "plugins": [
+   "ScrollTrigger",
+   "ScrollSmoother",
+   "MorphSVG",
+   "Draggable",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://sanrita.ca/",
+  "name": "San Rita",
+  "author": "San Rita, Sébastien Lempens and Benoît Delorme",
+  "plugins": [
+   "ScrollTrigger",
+   "Observer",
+   "MotionPath",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://jlern.com/",
+  "name": "JLern Design",
+  "author": "Justin Lerner",
+  "plugins": [
+   "DrawSVG",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://arnaudrocca.fr/",
+  "name": "Arnaud Rocca - Portfolio",
+  "author": "Arnaud Rocca",
+  "plugins": [
+   "ScrollTrigger",
+   "Observer",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://www.utopiatokyo.com/",
+  "name": "Utopia Tokyo",
+  "author": "SPOTHEROZ, Simon Smeraldi and Andrew Measham",
+  "plugins": [
+   "ScrollTrigger",
+   "DrawSVG",
+   "Flip",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://expeditione.fun/",
+  "name": "Expeditione",
+  "author": "Aureon de Veyra",
+  "plugins": [
+   "ScrollTrigger",
+   "Text",
+   "ScrollTo"
+  ]
+ },
+ {
+  "href": "https://www.thibaultguignand.com/",
+  "name": "Thibault Guignand",
+  "author": "Thibault Guignand",
+  "plugins": [
+   "ScrollTrigger",
+   "SplitText",
+   "ScrambleText"
+  ]
+ },
+ {
+  "href": "https://www.planetono.space/",
+  "name": "Planetoño",
+  "author": "Tubik Studio",
+  "plugins": [
+   "ScrollTrigger",
+   "Flip",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://elecctro.com/",
+  "name": "Elecctro",
+  "author": "Lynksen",
+  "plugins": [
+   "ScrollTrigger",
+   "ScrollSmoother",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://felix-nieto.com/",
+  "name": "Felix Nieto",
+  "author": "Ehtan Suero",
+  "plugins": [
+   "ScrollTrigger",
+   "ScrollSmoother",
+   "Flip",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "http://good-fella.com/",
+  "name": "Good Fella",
+  "author": "Good Fella",
+  "plugins": [
+   "ScrollTrigger",
+   "Flip",
+   "SplitText",
+   "Inertia"
+  ]
+ },
+ {
+  "href": "https://corentinbernadou.com/",
+  "name": "Corentin Bernadou Portfolio",
+  "author": "Corentin Bernadou",
+  "plugins": [
+   "ScrollTrigger",
+   "DrawSVG",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://casperscaviar.com/",
+  "name": "Casper's Caviar",
+  "author": "Kyrylo Orlov",
+  "plugins": [
+   "ScrollTrigger",
+   "Flip",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://blackbirdawards.com/",
+  "name": "The Blackbird Awards",
+  "author": "Dezea Studio, Victoria Bloom, Michael Bloom and Martin Laxenaire",
+  "plugins": [
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://quentinhocde.com/",
+  "name": "Quentin Hocdé",
+  "author": "Quentin Hocdé",
+  "plugins": [
+   "ScrollTrigger",
+   "Draggable",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://bogdankolomiyets.com/",
+  "name": "Bogdan Kolomiyets Portfolio",
+  "author": "Bogdan Kolomiyets",
+  "plugins": [
+   "ScrollTrigger",
+   "DrawSVG",
+   "Flip",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://siemprericc.com/",
+  "name": "Siempreric",
+  "author": "Jhosue Mesias, Alessandra Feuerberg and Fernando Cadena",
+  "plugins": [
+   "ScrollTrigger",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://bercerita.app/",
+  "name": "Bercerita",
+  "author": "Screenagers",
+  "plugins": [
+   "ScrollTrigger",
+   "DrawSVG",
+   "MotionPath"
+  ]
+ },
+ {
+  "href": "https://www.tks.world/",
+  "name": "TKS WORLD",
+  "author": "Izum Digital",
+  "plugins": [
+   "ScrollTrigger",
+   "ScrollSmoother",
+   "Observer",
+   "Flip",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://www.anima.ai/",
+  "name": "Anima",
+  "author": "Beaucoup",
+  "plugins": [
+   "ScrollTrigger"
+  ]
+ },
+ {
+  "href": "http://2025.oceanx.org/",
+  "name": "OceanX",
+  "author": "Unseen Studio and Propagande",
+  "plugins": [
+   "ScrollTrigger",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "http://lorisbukvic.graphics/",
+  "name": "LORISBUKVIC.GRAPHICS",
+  "author": "Bukvity Lorisz and Bukvity Ármin",
+  "plugins": [
+   "ScrollTrigger"
+  ]
+ },
+ {
+  "href": "https://www.museumofmoney.com/",
+  "name": "MoMoney",
+  "author": "Jordan Gilroy",
+  "plugins": [
+   "ScrollTrigger",
+   "Flip",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://www.studiotyrsa.com/",
+  "name": "Studio Tyrsa",
+  "author": "Studio Tyrsa, Amandia Kuoch and PROPAGANDE",
+  "plugins": [
+   "ScrollTrigger",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "http://ddark.dev/",
+  "name": "Dmitrii Dark - Portfolio",
+  "author": "Dmitrii Dark and Artur Stankevicz",
+  "plugins": [
+   "ScrollTrigger",
+   "ScrollSmoother"
+  ]
+ },
+ {
+  "href": "https://landonorris.com/",
+  "name": "Lando Norris",
+  "author": "OFF+BRAND Studio",
+  "plugins": [
+   "ScrollTrigger",
+   "MotionPath",
+   "Flip",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://jaychauhan.framer.website/",
+  "name": "Jay Chauhan - Portfolio",
+  "author": "Jay Chauhan",
+  "plugins": [
+   "ScrollTrigger"
+  ]
+ },
+ {
+  "href": "https://www.sozo21.co/",
+  "name": "SOZO21",
+  "author": "Vishal Jaiswal",
+  "plugins": [
+   "ScrollTrigger",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://joffreyspitzer.com/",
+  "name": "Joffrey Spitzer",
+  "author": "Joffrey Spitzer",
+  "plugins": [
+   "ScrollTrigger",
+   "Flip",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://www.new.studio/",
+  "name": "New Studio",
+  "author": "Kyrylo Orlov",
+  "plugins": [
+   "ScrollTrigger",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://www.theycallmegiulio.com/",
+  "name": "They Call Me Giulio",
+  "author": "Giulio Collesei",
+  "plugins": [
+   "ScrollTrigger",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://muizzwebstudio.com/",
+  "name": "Muizz Web Studio",
+  "author": "Muizz Web Studio",
+  "plugins": [
+   "ScrollTrigger",
+   "Observer",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://venkateshrapolu.vercel.app/",
+  "name": "Venkatesh Rapolu Portfolio",
+  "author": "Venkatesh Rapolu",
+  "plugins": [
+   "ScrollTrigger",
+   "ScrollSmoother"
+  ]
+ },
+ {
+  "href": "https://pocket-island.webflow.io/",
+  "name": "Pocket Island",
+  "author": "Pierre Louis Labonne",
+  "plugins": [
+   "Draggable",
+   "Inertia"
+  ]
+ },
+ {
+  "href": "https://www.jasonbergh.com/",
+  "name": "Jason Bergh",
+  "author": "BL/S and Artycoders",
+  "plugins": [
+   "ScrollTrigger",
+   "Observer",
+   "Draggable",
+   "Inertia",
+   "CustomEase"
+  ]
+ },
+ {
+  "href": "https://young-multi-strona.netlify.app/",
+  "name": "Young Multi",
+  "author": "Tomasz Szmajda",
+  "plugins": [
+   "ScrollTrigger"
+  ]
+ },
+ {
+  "href": "https://vibrant.noomoagency.com/",
+  "name": "Vibrant Wellness",
+  "author": "Noomo Agency",
+  "plugins": [
+   "GSAP Core"
+  ]
+ },
+ {
+  "href": "https://www.bec-restaurant.com/",
+  "name": "Bec Restaurant",
+  "author": "Thierry Chopain, Jeremy Fagis and type8 studio",
+  "plugins": [
+   "ScrollTrigger"
+  ]
+ },
+ {
+  "href": "https://www.weareinertia.com/",
+  "name": "Inertia Studios",
+  "author": "Okey Studio, Clarisse Michard and Adrien Quéchon",
+  "plugins": [
+   "ScrollTrigger",
+   "ScrollSmoother",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://en.dinotaeng.com/",
+  "name": "Dinotaeng",
+  "author": "FAVE® and Duotone",
+  "plugins": [
+   "ScrollTrigger"
+  ]
+ },
+ {
+  "href": "https://glenncatteeuw.com/",
+  "name": "Glenn Catteeuw",
+  "author": "Glenn Catteeuw and Rogier de Boevé",
+  "plugins": [
+   "ScrollTrigger",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://mousham-dev.vercel.app/",
+  "name": "Mousham Portfolio",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "ScrollSmoother",
+   "MorphSVG"
+  ]
+ },
+ {
+  "href": "https://www.measured.site/",
+  "name": "Measured",
+  "author": "Josh Chant",
+  "plugins": [
+   "ScrollTrigger",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://telhaclarke.com.au/",
+  "name": "Telha Clarke",
+  "author": "Thomas Monavon and Gregory Lalle",
+  "plugins": [
+   "ScrollTrigger"
+  ]
+ },
+ {
+  "href": "https://www.grilledpixels.com/",
+  "name": "Grilled Pixels - Adam Roberts Portfolio",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "Observer",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "http://jeskojets.com/",
+  "name": "Jesko Jets",
+  "author": "Ivan Chopei and The First The Last",
+  "plugins": [
+   "ScrollTrigger",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "http://fantik.studio/",
+  "name": "Fantik Studio®",
+  "author": "Fantik Studio",
+  "plugins": [
+   "ScrollTrigger"
+  ]
+ },
+ {
+  "href": "https://www.eventbrite.com/social-study-trends/",
+  "name": "Eventbrite - Social Study Trends 2026",
+  "author": "Youness Benammou",
+  "plugins": [
+   "ScrollTrigger",
+   "Observer",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://dylanbrouwer.design/",
+  "name": "Design by Dylan",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "Observer",
+   "Draggable",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://aicon.kakaoimpact.org/",
+  "name": "Helping AI Conference 2025",
+  "author": "FAVE® and Duotone",
+  "plugins": [
+   "ScrollTrigger",
+   "Observer"
+  ]
+ },
+ {
+  "href": "https://chemtest.fr/",
+  "name": "Chemtest",
+  "author": "Affaire à Suivre Studio and Thibaut Randrianarivelo",
+  "plugins": [
+   "ScrollTrigger"
+  ]
+ },
+ {
+  "href": "https://ryanringer-duffy.com/",
+  "name": "Ryan Ringer-Duffy",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "Observer",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://en.joguman.com/",
+  "name": "JOGUMAN",
+  "author": "FAVE® and Duotone",
+  "plugins": [
+   "ScrollTrigger",
+   "Observer"
+  ]
+ },
+ {
+  "href": "https://www.1820productions.com/",
+  "name": "1820 Productions",
+  "author": "Balky Studio",
+  "plugins": [
+   "ScrollTrigger",
+   "MorphSVG",
+   "Flip",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://angelnin.com/",
+  "name": "Angel Nin | Video and Photography",
+  "author": "Tikendev",
+  "plugins": [
+   "ScrollTrigger",
+   "Observer"
+  ]
+ },
+ {
+  "href": "https://www.univision.mn/game/en/",
+  "name": "FIX-IT",
+  "author": "FAVE®",
+  "plugins": [
+   "ScrollTrigger",
+   "Observer"
+  ]
+ },
+ {
+  "href": "https://decor24.in/",
+  "name": "Decor24",
+  "author": "Chinmay Patil",
+  "plugins": [
+   "ScrollTrigger",
+   "ScrollSmoother",
+   "MorphSVG",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "http://luxuria-laser-spa.webflow.io/",
+  "name": "Luxuria Laser Spa",
+  "author": "Aqsa Qamar and K13",
+  "plugins": [
+   "ScrollTrigger",
+   "Flip",
+   "SplitText",
+   "CustomEase"
+  ]
+ },
+ {
+  "href": "https://labs.anyflow.agency/",
+  "name": "Anyflow Labs",
+  "author": "Anyflow Agency, Vasav Prajapati and Pritam Das",
+  "plugins": [
+   "ScrollTrigger",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://www.nicolaromei.com/",
+  "name": "Nicola Romei Portfolio",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger"
+  ]
+ },
+ {
+  "href": "https://drimage.com/",
+  "name": "DRIMAGE",
+  "author": "FAVE®",
+  "plugins": [
+   "ScrollTrigger",
+   "Observer"
+  ]
+ },
+ {
+  "href": "https://www.thomasthorstensson.com/",
+  "name": "Thomas Thorstensson - Interactive Developer",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "Draggable"
+  ]
+ },
+ {
+  "href": "https://pablomiguez.dev/",
+  "name": "Pablo Míguez | Portfolio",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "ScrollSmoother",
+   "Observer",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://nakedcityfilms.com/",
+  "name": "Naked City Films",
+  "author": "SavoirFaire",
+  "plugins": [
+   "ScrollTrigger",
+   "ScrollSmoother"
+  ]
+ },
+ {
+  "href": "https://ironhill.au/",
+  "name": "Ironhill",
+  "author": "Uncommon Studio",
+  "plugins": [
+   "ScrollTrigger"
+  ]
+ },
+ {
+  "href": "http://tutuschool.com/",
+  "name": "Tutu School",
+  "author": "DASH Creative Strategy",
+  "plugins": [
+   "ScrollTrigger",
+   "ScrollSmoother",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://grabgains.com/",
+  "name": "GrabGains",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "Observer",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "http://lokasasmita.com/",
+  "name": "Alexander Lokasasmita Portfolio",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "SplitText",
+   "CustomEase",
+   "ScrollTo"
+  ]
+ },
+ {
+  "href": "https://spark.thedigitalpanda.com/",
+  "name": "The Spark",
+  "author": "The Digital Panda",
+  "plugins": [
+   "ScrollTrigger",
+   "Observer",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "http://ribbit.dk/",
+  "name": "Ribbit",
+  "author": "Frederik Hansen and Michael Vestergaard",
+  "plugins": [
+   "ScrollTrigger",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://graffico.it/",
+  "name": "Graffico",
+  "author": "Andrea Fragnelli and Lorenzo Angelino",
+  "plugins": [
+   "ScrollTrigger",
+   "Observer"
+  ]
+ },
+ {
+  "href": "http://laserdrift.com/",
+  "name": "Laser Drift",
+  "author": "Christian Ortiz",
+  "plugins": [
+   "GSAP Core"
+  ]
+ },
+ {
+  "href": "http://lumosine.webflow.io/",
+  "name": "Lumosine",
+  "author": "Nata Stelmah",
+  "plugins": [
+   "ScrollTrigger",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "http://prototypestudio.fr/",
+  "name": "Prototype",
+  "author": "Beaucoup",
+  "plugins": [
+   "ScrollTrigger"
+  ]
+ },
+ {
+  "href": "http://zeitmedia.vn/",
+  "name": "Zeit Media",
+  "author": "Duc Nguyen and Dang Nguyen",
+  "plugins": [
+   "ScrollTrigger",
+   "Flip"
+  ]
+ },
+ {
+  "href": "http://sachith-tharinda-2026.webflow.io/",
+  "name": "Sachith Tharinda Portfolio",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "Observer",
+   "MorphSVG",
+   "DrawSVG",
+   "Flip",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "http://artisansdegeneve.com/en",
+  "name": "Artisans de Genève",
+  "author": "Digidop",
+  "plugins": [
+   "ScrollTrigger"
+  ]
+ },
+ {
+  "href": "http://maikasui.com/",
+  "name": "Maikasui",
+  "author": "Sublimio Studio",
+  "plugins": [
+   "ScrollTrigger",
+   "Observer",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "http://magnify.partners/",
+  "name": "Magnify Partners",
+  "author": "Co.Design",
+  "plugins": [
+   "ScrollTrigger",
+   "Flip",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://www.fashikun.com/",
+  "name": "Oluwafemi Fashikun Portfolio",
+  "author": "Kehinde Omopariola",
+  "plugins": [
+   "ScrollTrigger",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "http://signalsfs.com/",
+  "name": "Signals",
+  "author": "Unmirror Studio",
+  "plugins": [
+   "ScrollTrigger",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://studiolumio.com/",
+  "name": "Studio Lumio",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "http://sav1n.com/",
+  "name": "SAV1N Portfolio",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "DrawSVG",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "http://cursetheleague.com/",
+  "name": "Curse The League",
+  "author": "Robbie Green",
+  "plugins": [
+   "ScrollTrigger",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "http://brandium.nl/",
+  "name": "Brandium Agency",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "Observer",
+   "DrawSVG",
+   "Flip",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "http://vogue.com/article/gen-z-broke-the-marketing-funnel-part-ii-what-now",
+  "name": "Vogue Business",
+  "author": "Noomo Agency",
+  "plugins": [
+   "ScrollTrigger",
+   "MotionPath",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "http://roizi.info/",
+  "name": "Roizi Lu - Portfolio",
+  "author": "Roizi Lu",
+  "plugins": [
+   "ScrollTrigger",
+   "SplitText",
+   "CustomEase"
+  ]
+ },
+ {
+  "href": "http://jaimru.com/",
+  "name": "Jaimru Technology",
+  "author": "Md Farzan and Jai Kashayp",
+  "plugins": [
+   "ScrollTrigger",
+   "ScrollSmoother",
+   "MotionPath",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://emmpo.com/",
+  "name": "EMMPO",
+  "author": "Yeva Tykhonova and Nikita Tytskyi",
+  "plugins": [
+   "ScrollTrigger",
+   "ScrollSmoother",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "http://smllns-portfolio.vercel.app/",
+  "name": "Mariia Smolianskaia Portfolio",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "DrawSVG",
+   "Draggable",
+   "SplitText",
+   "Inertia"
+  ]
+ },
+ {
+  "href": "http://nova-mars-exploration.webflow.io/",
+  "name": "NOVA – Mars Exploration",
+  "author": "Jonas Arleth",
+  "plugins": [
+   "ScrollTrigger",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "http://acor-moe.fr/",
+  "name": "Acor",
+  "author": "Thierry Chopain and Jeremy Fagis",
+  "plugins": [
+   "ScrollTrigger"
+  ]
+ },
+ {
+  "href": "http://tesoroxp.com/",
+  "name": "Tesoro",
+  "author": "Jordan Gilroy",
+  "plugins": [
+   "ScrollTrigger",
+   "MotionPath",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "http://pulse.vervaunt.com/",
+  "name": "Vervaunt Pulse",
+  "author": "Made by Field",
+  "plugins": [
+   "ScrollTrigger",
+   "ScrollSmoother",
+   "Observer",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "http://osmo.supply/",
+  "name": "Osmo",
+  "author": "Jason Harvey, Dennis Snellenberg and Ilja Van Eck",
+  "plugins": [
+   "ScrollTrigger",
+   "Observer",
+   "Draggable",
+   "SplitText",
+   "Inertia",
+   "CustomEase"
+  ]
+ },
+ {
+  "href": "https://www.houseofcorto.com/",
+  "name": "House Of Corto",
+  "author": "Flot Noir and Thomas Carré",
+  "plugins": [
+   "ScrollTrigger",
+   "ScrollSmoother",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://mojostudio.co/",
+  "name": "Mojo Studio",
+  "author": "Beaucoup Studio",
+  "plugins": [
+   "ScrollTrigger"
+  ]
+ },
+ {
+  "href": "http://ousmaneballondor.fr/",
+  "name": "Ousmane Dembélé - Ballon d'Or",
+  "author": "FLOT NOIR",
+  "plugins": [
+   "ScrollTrigger",
+   "DrawSVG"
+  ]
+ },
+ {
+  "href": "https://cortiz.dev/",
+  "name": "Christian Ortiz Portfolio",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://fundamental.bg/en",
+  "name": "Fundamental Studio",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "Observer",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://wowfactories.com/",
+  "name": "WowFactories",
+  "author": "Hiral Satardekar and Everything Flow",
+  "plugins": [
+   "ScrollTrigger",
+   "Observer",
+   "CustomEase"
+  ]
+ },
+ {
+  "href": "https://maxmilkin.com/",
+  "name": "Max Milkin Portfolio",
+  "author": "Olha Lazarieva",
+  "plugins": [
+   "ScrollTrigger"
+  ]
+ },
+ {
+  "href": "https://infiniteform.io/",
+  "name": "Infinite Form",
+  "author": "StrategiQ",
+  "plugins": [
+   "ScrollTrigger",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "http://danielbatedesign.com/",
+  "name": "Daniel Bate Potfolio",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "Flip",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://themonolithproject.net/",
+  "name": "The Monolith Project",
+  "author": "Fabian Tjoeaon, Ethan Chiu, Nando Correa and Daisy Zhang",
+  "plugins": [
+   "ScrollTrigger"
+  ]
+ },
+ {
+  "href": "https://ahmedabdalalim.pages.dev/",
+  "name": "Ahmed Abd Alalim Portfolio",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "ScrollSmoother",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://sage.fantik.studio/",
+  "name": "Sage",
+  "author": "Fantik Studio",
+  "plugins": [
+   "ScrollTrigger"
+  ]
+ },
+ {
+  "href": "https://elliott.mangham.dev/",
+  "name": "Elliott Mangham - Portfolio",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "Observer",
+   "SplitText",
+   "ScrambleText"
+  ]
+ },
+ {
+  "href": "https://www.omaya-yachts.com/",
+  "name": "Omaya Yachts",
+  "author": "Branda Studio",
+  "plugins": [
+   "ScrollTrigger",
+   "SplitText",
+   "CustomEase"
+  ]
+ },
+ {
+  "href": "https://www.builtkindly.com/",
+  "name": "Built Kindly",
+  "author": "David Lubofsky, Bryan James and Jesper Landberg",
+  "plugins": [
+   "ScrollTrigger",
+   "DrawSVG",
+   "Flip",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://www.anselumjuju.com/",
+  "name": "Anselum Juju - Portfolio",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "Observer",
+   "MorphSVG",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://www.parisbyemily.com/",
+  "name": "Paris by Emily",
+  "author": "LOOP and Barry Baris Dogan",
+  "plugins": [
+   "ScrollTrigger",
+   "ScrollSmoother",
+   "Observer",
+   "Flip",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://crumb-bakery.vercel.app/",
+  "name": "Crumb Bakery",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://kumonmalaysia.com/30anniversary",
+  "name": "Kumon Malaysia - 30th Anniversary",
+  "author": "Optimize Tech Solutions",
+  "plugins": [
+   "ScrollTrigger"
+  ]
+ },
+ {
+  "href": "https://nature-beyond.tech/",
+  "name": "Nature Beyond Technology",
+  "author": "Robin Navas",
+  "plugins": [
+   "ScrollTrigger",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://cappen.com/",
+  "name": "Cappen",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "ScrollSmoother"
+  ]
+ },
+ {
+  "href": "https://www.added.digital/",
+  "name": "ADDED",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "MorphSVG",
+   "DrawSVG",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://ghuynguyen.vercel.app/",
+  "name": "Gia Huy Nguyen - Portfolio",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "Flip"
+  ]
+ },
+ {
+  "href": "http://teateearu.com/",
+  "name": "Tea Teearu - Portfolio",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://www.hubcycled.com/",
+  "name": "Hubcycle",
+  "author": "Bolk Studio and Treize Gramme",
+  "plugins": [
+   "ScrollTrigger",
+   "Flip",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://lacrapulestudio.com/",
+  "name": "LaCrapule Studio",
+  "author": "Amine Zegmou",
+  "plugins": [
+   "ScrollTrigger",
+   "MorphSVG",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://sirup.online/owaridiary/",
+  "name": "SIRUP OWARI DIARY",
+  "author": "Tote Inc",
+  "plugins": [
+   "ScrollTrigger",
+   "Draggable"
+  ]
+ },
+ {
+  "href": "https://laracraft.eu/",
+  "name": "LaraCraft",
+  "author": "Weband and Laracraft",
+  "plugins": [
+   "ScrollTrigger",
+   "ScrollSmoother"
+  ]
+ },
+ {
+  "href": "https://yourwave.nl/",
+  "name": "Yourwave",
+  "author": "Japie van Eijk",
+  "plugins": [
+   "ScrollTrigger",
+   "ScrollSmoother",
+   "Flip",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://www.stavrossymeonidis.dev/",
+  "name": "Stavros Symeonidis",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger"
+  ]
+ },
+ {
+  "href": "https://bmsgfes.tokyo/2025/",
+  "name": "BMSG FES'25",
+  "author": "Tote inc",
+  "plugins": [
+   "ScrollTrigger",
+   "Inertia"
+  ]
+ },
+ {
+  "href": "https://inkgames.com/",
+  "name": "Ink Games",
+  "author": "ToyFight",
+  "plugins": [
+   "ScrollTrigger",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://petkotanchev.art/",
+  "name": "Petko Tanchev Media Artist",
+  "author": "I-Creativ Studio",
+  "plugins": [
+   "Draggable",
+   "Flip"
+  ]
+ },
+ {
+  "href": "https://gsap.com/showcase/?page=9",
+  "name": "FUTURE THREE®",
+  "author": "Jason Harvey and Eduard Bodak",
+  "plugins": [
+   "ScrollTrigger",
+   "SplitText",
+   "CustomEase"
+  ]
+ },
+ {
+  "href": "https://www.architecture.film/",
+  "name": "Architecture.Film",
+  "author": "Charles Theo and Dion Barret",
+  "plugins": [
+   "ScrollTrigger",
+   "Observer",
+   "Draggable",
+   "SplitText",
+   "CustomEase"
+  ]
+ },
+ {
+  "href": "http://www.pantheonmedia.com/",
+  "name": "Pantheon Media Group",
+  "author": "ToyFight",
+  "plugins": [
+   "ScrollTrigger",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://more-nutrition.webflow.io/",
+  "name": "More Nutrition",
+  "author": "FUTURE THREE",
+  "plugins": [
+   "ScrollTrigger",
+   "DrawSVG",
+   "SplitText",
+   "Inertia",
+   "CustomEase"
+  ]
+ },
+ {
+  "href": "https://romanjeanelie.com/",
+  "name": "Roman Jean-Elie Portfolio",
+  "author": "",
+  "plugins": [
+   "MorphSVG",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://jextures.com.my/",
+  "name": "Jextures - Agency",
+  "author": "Alex Khoo and Jin M",
+  "plugins": [
+   "ScrollTrigger",
+   "ScrollSmoother",
+   "Observer",
+   "MorphSVG",
+   "MotionPath",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://noxediem.ch/en/",
+  "name": "Noxediem",
+  "author": "No graphism",
+  "plugins": [
+   "ScrollTrigger",
+   "ScrollSmoother",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://ouwn.jp/",
+  "name": "creative studio OUWN",
+  "author": "Stand Foundation",
+  "plugins": [
+   "ScrollTrigger"
+  ]
+ },
+ {
+  "href": "https://anri.vc/",
+  "name": "Changer Capital ANRI",
+  "author": "FunTech and NEWPEACE",
+  "plugins": [
+   "ScrollTrigger"
+  ]
+ },
+ {
+  "href": "https://www.weisdevice.xyz/",
+  "name": "weidevice",
+  "author": "",
+  "plugins": [
+   "GSAP Core"
+  ]
+ },
+ {
+  "href": "https://awexr.mx/",
+  "name": "AWE Nites",
+  "author": "Nestor Rios",
+  "plugins": [
+   "GSAP Core"
+  ]
+ },
+ {
+  "href": "https://www.velizardelyanov.com/",
+  "name": "Velizar Delyanov Portfolio",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://stiff.madebybuzzworthy.com/",
+  "name": "Working Stiff Films",
+  "author": "Buzzworthy Studio",
+  "plugins": [
+   "ScrollTrigger",
+   "ScrollSmoother",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://www.rhumb.co/",
+  "name": "Rhumb Studio",
+  "author": "Maël Ruffini",
+  "plugins": [
+   "ScrollTrigger",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "http://mater.agency/",
+  "name": "Mater Agency",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "ScrollSmoother",
+   "DrawSVG"
+  ]
+ },
+ {
+  "href": "https://decathlonlifestyle.index.studio/",
+  "name": "Decathlon Lifestyle",
+  "author": "Index Studio",
+  "plugins": [
+   "ScrollTrigger",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://doomicus.com/",
+  "name": "Pedro Doomicus - Portfolio",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://bassbcn.com/",
+  "name": "BASS",
+  "author": "Digital of Things",
+  "plugins": [
+   "ScrollTrigger",
+   "Observer"
+  ]
+ },
+ {
+  "href": "https://geospace.hr/en/",
+  "name": "GeoSpace",
+  "author": "Mater Agency",
+  "plugins": [
+   "ScrollTrigger",
+   "ScrollSmoother",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://the-symphony.webflow.io/",
+  "name": "The Symphony",
+  "author": "Jan Paveo, Tamara Pešić and Matevž Žunko",
+  "plugins": [
+   "ScrollTrigger",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://ponpon-mania.com/",
+  "name": "Ponpon Mania - Interactive Comic",
+  "author": "Justine SOULIE and Patrick HENG",
+  "plugins": [
+   "ScrollTrigger",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://www.luminaireauthentik.com/",
+  "name": "Luminaire Authentik",
+  "author": "LEEROY",
+  "plugins": [
+   "ScrollTrigger",
+   "CustomEase"
+  ]
+ },
+ {
+  "href": "https://abhishekjha.me/",
+  "name": "Abhishek Jha - Portfolio",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "ScrollSmoother",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://amelieguider.webflow.io/",
+  "name": "Amélie Guider",
+  "author": "Amélie Guider and Bolk Studio",
+  "plugins": [
+   "ScrollTrigger",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://www.twocapitalsstudio.com/",
+  "name": "Two Capitals Studio",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "ScrollSmoother",
+   "Observer",
+   "MorphSVG",
+   "DrawSVG",
+   "MotionPath",
+   "Flip",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://ova-investment.com/",
+  "name": "OVA - investment",
+  "author": "type8 studio, Jeremy Fagis, Jordan Thiervoz, Department Maison de Création and Thierry Chopain",
+  "plugins": [
+   "ScrollTrigger"
+  ]
+ },
+ {
+  "href": "https://wonjyou.studio/",
+  "name": "Won J. You",
+  "author": "Huy Phan, Thinh Do and Chanh M. Ho",
+  "plugins": [
+   "ScrollTrigger",
+   "Flip",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://thefinch.design/",
+  "name": "TheFinch Design",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "ScrollSmoother",
+   "Observer",
+   "DrawSVG",
+   "MotionPath",
+   "Flip",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://templier.com/",
+  "name": "Templier",
+  "author": "Quentin Hocdé and Index Studio",
+  "plugins": [
+   "ScrollTrigger"
+  ]
+ },
+ {
+  "href": "https://rainearchitects.com/",
+  "name": "Raine Architects",
+  "author": "Two Capitals Studio",
+  "plugins": [
+   "ScrollTrigger",
+   "ScrollSmoother",
+   "Observer",
+   "MorphSVG",
+   "DrawSVG",
+   "MotionPath",
+   "Flip",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://janraven.studio/",
+  "name": "Jan Raven",
+  "author": "Jan Raven and Reksa Andhika",
+  "plugins": [
+   "ScrollTrigger",
+   "SplitText",
+   "ScrambleText"
+  ]
+ },
+ {
+  "href": "https://s-2k.webflow.io/",
+  "name": "S-2K",
+  "author": "Ivor Jian",
+  "plugins": [
+   "ScrollTrigger",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://martin-laxenaire.fr/",
+  "name": "Martin Laxenaire Portfolio",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "Draggable",
+   "SplitText",
+   "Inertia"
+  ]
+ },
+ {
+  "href": "https://nicolasgiannantonio.com/",
+  "name": "Nicolas Giannantonio",
+  "author": "",
+  "plugins": [
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://www.qrefinish.com/en",
+  "name": "Q Refinish",
+  "author": "Artemii Lebedev",
+  "plugins": [
+   "ScrollTrigger"
+  ]
+ },
+ {
+  "href": "https://www.clapat.com/templates/moz/",
+  "name": "Moz Agency",
+  "author": "Clapat Studio",
+  "plugins": [
+   "ScrollTrigger",
+   "Flip"
+  ]
+ },
+ {
+  "href": "https://www.bjornflow.com/",
+  "name": "Bjornflow",
+  "author": "Bjorn Encutescu",
+  "plugins": [
+   "ScrollTrigger",
+   "Observer",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://olhalazarieva.com/",
+  "name": "Olha Lazarieva",
+  "author": "Olha Lazarieva and Max Milkin",
+  "plugins": [
+   "ScrollTrigger"
+  ]
+ },
+ {
+  "href": "https://www.der-baukasten.com/",
+  "name": "Der Baukasten",
+  "author": "Tubik Studio",
+  "plugins": [
+   "ScrollTrigger",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://www.luganolivinglab.ch/",
+  "name": "L*3 Lugano Living Lab",
+  "author": "SPOTHEROZ and Andrew Measham",
+  "plugins": [
+   "ScrollTrigger",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://blinkpath.com/",
+  "name": "Blinkpath",
+  "author": "Jean Mazouni and Blinkpath",
+  "plugins": [
+   "ScrollTrigger",
+   "Flip",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://www.tiraki.nz/",
+  "name": "Tiraki Wine",
+  "author": "Ollie Beckett and Tigernaut",
+  "plugins": [
+   "ScrollTrigger",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://gsap.com/showcase/?page=9",
+  "name": "Nuraform",
+  "author": "Abhishek Jha",
+  "plugins": [
+   "ScrollTrigger",
+   "ScrollSmoother",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://times-event.de/",
+  "name": "Times Event",
+  "author": "Michael Aust",
+  "plugins": [
+   "ScrollTrigger",
+   "MotionPath",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://markwoodland.com.au/",
+  "name": "Mark Woodland",
+  "author": "Uncommon Studio",
+  "plugins": [
+   "ScrollTrigger",
+   "Observer",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://teleportent.tocopaxi.com/",
+  "name": "Teleportent",
+  "author": "Naohiko Yamane",
+  "plugins": [
+   "ScrollTrigger",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://www.greaterstudio.com/",
+  "name": "Greater Studio",
+  "author": "",
+  "plugins": [
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://mikevandersanden.com/",
+  "name": "Mike van der Sanden",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://brand.ledger.com/",
+  "name": "Ledger Brand Book",
+  "author": "Joseph Berry and Nkenna Amadi",
+  "plugins": [
+   "ScrollTrigger",
+   "Observer",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://ccus.heidelbergmaterials.com/en/",
+  "name": "Heidelberg CCUS",
+  "author": "Ashfall Studio",
+  "plugins": [
+   "GSAP Core"
+  ]
+ },
+ {
+  "href": "https://www.theresolute.ai/",
+  "name": "Resolute AI",
+  "author": "Vishal Jaiswal and Abhishek",
+  "plugins": [
+   "ScrollTrigger",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://terminal-industries.com/",
+  "name": "Terminal Industries",
+  "author": "Propagande Studio and Rejouice",
+  "plugins": [
+   "ScrollTrigger",
+   "MorphSVG",
+   "DrawSVG",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://adamvromman.net/en/",
+  "name": "Adam Vromman",
+  "author": "",
+  "plugins": [
+   "DrawSVG"
+  ]
+ },
+ {
+  "href": "https://www.dorianlods.com/",
+  "name": "Dorian Lods",
+  "author": "",
+  "plugins": [
+   "CustomEase"
+  ]
+ },
+ {
+  "href": "https://modus.fantik.studio/",
+  "name": "Modus®",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger"
+  ]
+ },
+ {
+  "href": "https://solutions.alphanelabs.com/",
+  "name": "Alphane Labs",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "DrawSVG",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://www.sparkandriot.com/",
+  "name": "Spark & Riot",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://www.nomorehippocrites.com/",
+  "name": "No More Hippocrites",
+  "author": "",
+  "plugins": [
+   "Flip",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://www.caeli-energie.com/",
+  "name": "Caeli Energie",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger"
+  ]
+ },
+ {
+  "href": "https://harikrishnanr.in/",
+  "name": "HariKrishnan R",
+  "author": "",
+  "plugins": [
+   "DrawSVG",
+   "ScrambleText"
+  ]
+ },
+ {
+  "href": "https://www.clayboan.com/",
+  "name": "Clay Boan (25)",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "DrawSVG",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://www.sr-seventy.one/",
+  "name": "Blackbird",
+  "author": "",
+  "plugins": [
+   "DrawSVG",
+   "SplitText",
+   "ScrambleText"
+  ]
+ },
+ {
+  "href": "https://telescope.fyi/",
+  "name": "Telescope",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger"
+  ]
+ },
+ {
+  "href": "https://ethicallifeworld.com/",
+  "name": "Ethical Life",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "ScrollSmoother"
+  ]
+ },
+ {
+  "href": "https://benhays.dev/",
+  "name": "Benzo the Great Developer",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "Pixi"
+  ]
+ },
+ {
+  "href": "https://adrienlamy.fr/",
+  "name": "Adrien Lamy",
+  "author": "",
+  "plugins": [
+   "GSAP Core"
+  ]
+ },
+ {
+  "href": "https://www.smart-airport-systems.com/",
+  "name": "Smart Airport Systems",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger"
+  ]
+ },
+ {
+  "href": "https://smooothy.federic.ooo/",
+  "name": "Smooothy",
+  "author": "",
+  "plugins": [
+   "DrawSVG",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://tsveti.dev/",
+  "name": "Tsvetelina Mladenova",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "Observer",
+   "Flip",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://vwlab.io/pages/report",
+  "name": "Report",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "Flip",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://joseph-san.com/",
+  "name": "Joseph Santamaria - Folio '25",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger"
+  ]
+ },
+ {
+  "href": "https://the-gsap-field.webflow.io/",
+  "name": "The GSAP Field",
+  "author": "",
+  "plugins": [
+   "Webflow Interactions"
+  ]
+ },
+ {
+  "href": "https://firstframe.fr/",
+  "name": "First Frame",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger"
+  ]
+ },
+ {
+  "href": "https://otonove.studiokhi.com/",
+  "name": "Oto Nove Fest",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger"
+  ]
+ },
+ {
+  "href": "https://storytelling.plank.co/",
+  "name": "Plank - Digital Storytelling",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "Flip",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://studionuts.com.br/",
+  "name": "StudioNuts®",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://aether1.ai/",
+  "name": "Aether 1",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "DrawSVG",
+   "Flip",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://solk.com/",
+  "name": "SOLK - Made to Fade",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://gilneas-bank.lucaslamonier.com/",
+  "name": "The Gilneas Bank",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger"
+  ]
+ },
+ {
+  "href": "https://mikkisindhunata.com/",
+  "name": "Mikki Sindhunata",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "SplitText",
+   "ScrambleText"
+  ]
+ },
+ {
+  "href": "https://madebyreckless.com/",
+  "name": "Made by Reckless",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger"
+  ]
+ },
+ {
+  "href": "https://www.nk.studio/",
+  "name": "/nk.studio",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "DrawSVG",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://fradesign.it/",
+  "name": "FRA! Doodle Artist Portfolio",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger"
+  ]
+ },
+ {
+  "href": "https://www.gabrielveres.com/",
+  "name": "Gabriel Veres",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://eloyb.design/",
+  "name": "ē𝔩๏ȳ̶̮̰̈́b.design",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://www.palmer-dinnerware.com/",
+  "name": "Palmer Dinnerware",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "Observer",
+   "Draggable",
+   "Flip",
+   "SplitText",
+   "Inertia"
+  ]
+ },
+ {
+  "href": "https://studio-dot.fr/",
+  "name": "Studio DOT",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://www.lumenartspace.com/",
+  "name": "Lumen Artspace",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "Observer",
+   "Flip",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://nutrad.co.jp/",
+  "name": "Nutrad",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger"
+  ]
+ },
+ {
+  "href": "https://electrafilmworks.com/",
+  "name": "Electra Filmworks",
+  "author": "",
+  "plugins": [
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://www.mbrown.work/",
+  "name": "Michael Brown",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "Flip",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://infaces-digitalbutlers.webflow.io/",
+  "name": "inFaces",
+  "author": "",
+  "plugins": [
+   "GSAP Core"
+  ]
+ },
+ {
+  "href": "https://www.hestia-2008.com/",
+  "name": "Hestia-2008",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://www.eliotbesson.com/",
+  "name": "Eliot Besson",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "Observer"
+  ]
+ },
+ {
+  "href": "https://madebyshape.co.uk/",
+  "name": "MadeByShape",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger"
+  ]
+ },
+ {
+  "href": "https://www.flowfest.co.uk/",
+  "name": "Flowfest 2025",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "DrawSVG",
+   "Draggable",
+   "Text",
+   "CustomEase"
+  ]
+ },
+ {
+  "href": "https://www.eduardbodak.com/",
+  "name": "Eduard Bodak — Portfolio",
+  "author": "",
+  "plugins": [
+   "GSAP Core"
+  ]
+ },
+ {
+  "href": "https://nuset.jp/",
+  "name": "NUSET",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger"
+  ]
+ },
+ {
+  "href": "https://www.misterpio.com/",
+  "name": "Mister Pio — Peruvian Rotisserie Chicken",
+  "author": "",
+  "plugins": [
+   "GSAP Core"
+  ]
+ },
+ {
+  "href": "https://www.casa-lunara.com/",
+  "name": "Casa Lunara",
+  "author": "",
+  "plugins": [
+   "ScrollSmoother",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://www.vibex.space/",
+  "name": "VibeX",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger"
+  ]
+ },
+ {
+  "href": "https://www.phantom.land/",
+  "name": "Phantom Land",
+  "author": "",
+  "plugins": [
+   "CustomEase",
+   "useGSAP"
+  ]
+ },
+ {
+  "href": "https://www.tadesign.nl/",
+  "name": "TA Design",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger"
+  ]
+ },
+ {
+  "href": "https://www.nemanjakocovic.com/",
+  "name": "Thing by Nemanja",
+  "author": "",
+  "plugins": [
+   "Observer",
+   "MorphSVG",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://dumemearts.webflow.io/",
+  "name": "Dumemearts - Digital Designer Portfolio",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "ScrollSmoother"
+  ]
+ },
+ {
+  "href": "https://nvg8.io/",
+  "name": "Navigate",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://vegan.ning-h.com/",
+  "name": "VEGGIE TAIPEI",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://naturehood-pj.com/zinen/",
+  "name": "ZINEN",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger"
+  ]
+ },
+ {
+  "href": "https://dich-fashion.webflow.io/",
+  "name": "DICH™ Fashion",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger"
+  ]
+ },
+ {
+  "href": "https://meetyourlegend.com/",
+  "name": "Meet Your Legend",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger"
+  ]
+ },
+ {
+  "href": "https://dev.guillaumetomasi.com/",
+  "name": "Guillaume Tomasi  /devfolio/",
+  "author": "",
+  "plugins": [
+   "GSAP Core"
+  ]
+ },
+ {
+  "href": "https://www.spicerack-sr.com/shisaku/",
+  "name": "SHISAKU",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "MotionPath"
+  ]
+ },
+ {
+  "href": "https://aerleum.com/",
+  "name": "Aerleum",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://briganti.works/",
+  "name": "Andres Briganti",
+  "author": "",
+  "plugins": [
+   "Observer",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://jaiunsite.com/another/01",
+  "name": "another jaiunsite",
+  "author": "",
+  "plugins": [
+   "Observer",
+   "MotionPath",
+   "Flip"
+  ]
+ },
+ {
+  "href": "https://rn044.com/",
+  "name": "Ros Nych | rn044",
+  "author": "",
+  "plugins": [
+   "GSAP Core"
+  ]
+ },
+ {
+  "href": "https://homerun.today/",
+  "name": "Homerun",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "Observer"
+  ]
+ },
+ {
+  "href": "https://www.onioncreative.studio/",
+  "name": "Onion Creative Studio",
+  "author": "",
+  "plugins": [
+   "GSAP Core"
+  ]
+ },
+ {
+  "href": "https://www.inkwell.tech/",
+  "name": "Inkwell",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "ScrollSmoother"
+  ]
+ },
+ {
+  "href": "https://www.thisisbond.com/",
+  "name": "Bond",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "Observer",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://soulstridee.webflow.io/",
+  "name": "Soulstridee",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "ScrollSmoother",
+   "Flip",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://berserk-heart-of-darkness.vercel.app/",
+  "name": "Berserk — Into the Heart of Darkness",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger"
+  ]
+ },
+ {
+  "href": "https://www.jazzicreates.tv/",
+  "name": "Jazmin Wong",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger"
+  ]
+ },
+ {
+  "href": "https://nika.agency/",
+  "name": "Nika",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "Flip",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://toootegram.tote.co.jp/",
+  "name": "TOOOTEGRAM",
+  "author": "",
+  "plugins": [
+   "GSAP Core"
+  ]
+ },
+ {
+  "href": "https://www.composites.archi/",
+  "name": "Composites.archi",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "DrawSVG"
+  ]
+ },
+ {
+  "href": "https://pikipottery.com/",
+  "name": "Piki Pottery",
+  "author": "",
+  "plugins": [
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://naturalform.shop/",
+  "name": "Natural Form",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "SplitText",
+   "CustomEase"
+  ]
+ },
+ {
+  "href": "https://aurelienvigne.com/",
+  "name": "Aurel's Grand Theater",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "MotionPath"
+  ]
+ },
+ {
+  "href": "https://www.amanation-official.com/",
+  "name": "AMANATION",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger"
+  ]
+ },
+ {
+  "href": "https://quechua-lookbook.com/ss25/",
+  "name": "Quechua SS25 Lookbook",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger"
+  ]
+ },
+ {
+  "href": "https://www.childless.ch/",
+  "name": "Childless",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "DrawSVG",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://valentime.noomoagency.com/",
+  "name": "ValenTime",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "ScrollSmoother",
+   "DrawSVG"
+  ]
+ },
+ {
+  "href": "https://sophiezwartkruis.com/",
+  "name": "Sophie Zwartkruis",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://www.thekaplans.studio/",
+  "name": "The Kaplans",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "Flip",
+   "CustomEase"
+  ]
+ },
+ {
+  "href": "https://overflow.sui.io/",
+  "name": "Sui Overflow 2025 Hackathon",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "MorphSVG",
+   "Flip",
+   "SplitText",
+   "ScrambleText"
+  ]
+ },
+ {
+  "href": "https://www.jonathangrado.com/",
+  "name": "Jonathan Grado",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "ScrollSmoother",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://techredux.co/",
+  "name": "Tech Redux",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger"
+  ]
+ },
+ {
+  "href": "https://dolsten.com/",
+  "name": "Dolsten & Co.",
+  "author": "",
+  "plugins": [
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://clementgrellier.fr/",
+  "name": "Clément Grellier — Portfolio",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger"
+  ]
+ },
+ {
+  "href": "https://www.siena.film/",
+  "name": "Siena Film Foundation",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "ScrollSmoother",
+   "Observer",
+   "DrawSVG",
+   "Flip"
+  ]
+ },
+ {
+  "href": "https://www.vvisual.biz/",
+  "name": "VISUALBUSINESS",
+  "author": "",
+  "plugins": [
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://truekindskincare.com/",
+  "name": "TrueKind",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "DrawSVG",
+   "Flip",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://www.tomaskmet.com/",
+  "name": "TOMASKMET.COM",
+  "author": "",
+  "plugins": [
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://www.elegantseagulls.com/",
+  "name": "Elegant Seagulls",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger"
+  ]
+ },
+ {
+  "href": "https://v6.usestate.org/",
+  "name": "Tomoya Okada - portfolio v6",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger"
+  ]
+ },
+ {
+  "href": "https://dayloog.com/",
+  "name": "DayLoog",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger"
+  ]
+ },
+ {
+  "href": "https://www.oaksun.studio/",
+  "name": "Oaksun Studio",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "ScrollSmoother",
+   "Observer",
+   "MorphSVG",
+   "Draggable",
+   "Flip",
+   "SplitText",
+   "Inertia"
+  ]
+ },
+ {
+  "href": "https://hellocopilot.com/",
+  "name": "Copilot",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "ScrollSmoother",
+   "Flip",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://isladjan.com/",
+  "name": "Isladjan | Portfolio",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "Observer",
+   "CustomEase"
+  ]
+ },
+ {
+  "href": "https://www.sublimio.com/",
+  "name": "Sublimio",
+  "author": "",
+  "plugins": [
+   "GSAP Core"
+  ]
+ },
+ {
+  "href": "https://www.nite-riot.com/",
+  "name": "Nite Riot",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "ScrollSmoother",
+   "Observer",
+   "Flip"
+  ]
+ },
+ {
+  "href": "https://www.graphichunters.com/",
+  "name": "GRAPHICHUNTERS®",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://thmssnglmnt.com/en",
+  "name": "The Missing Element",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger"
+  ]
+ },
+ {
+  "href": "https://247artists.com/",
+  "name": "24/7 Artists",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "MotionPath",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://www.spylt.com/",
+  "name": "SPYLT Milk",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://codedbymohit.xyz/",
+  "name": "Mohit Tiwari's Portfolio",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger"
+  ]
+ },
+ {
+  "href": "https://www.triplettapizza.com/",
+  "name": "Tripletta Pizza",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "Observer",
+   "Flip"
+  ]
+ },
+ {
+  "href": "https://silverfishfilms.com/",
+  "name": "Silverfish Studios",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "Observer",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://www.markclennon.com/",
+  "name": "Mark Clennon",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "Observer"
+  ]
+ },
+ {
+  "href": "https://www.gentlerain.ai/",
+  "name": "Gentlerain.ai",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger"
+  ]
+ },
+ {
+  "href": "https://www.clay.com/community-equity-offering",
+  "name": "Clay Community journey",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://vwlab.io/pages/showcase",
+  "name": "Mastering Web Animations",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "DrawSVG",
+   "MotionPath",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://design.cash.app/",
+  "name": "Cash App",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "Flip"
+  ]
+ },
+ {
+  "href": "https://www.bleibtgleich.com/",
+  "name": "bleibtgleich'25",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger"
+  ]
+ },
+ {
+  "href": "https://theprogressors.redcollar.co/",
+  "name": "The Progressors",
+  "author": "",
+  "plugins": [
+   "Observer"
+  ]
+ },
+ {
+  "href": "https://www.gmbgraphic.com/",
+  "name": "Guillaume Maurin-Belay Portfolio",
+  "author": "",
+  "plugins": [
+   "Observer"
+  ]
+ },
+ {
+  "href": "https://dylanbrouwer.design/",
+  "name": "Dylan Brouwer",
+  "author": "",
+  "plugins": [
+   "Draggable",
+   "SplitText",
+   "Inertia"
+  ]
+ },
+ {
+  "href": "https://theastralfrontier.com/",
+  "name": "Astral Frontier",
+  "author": "",
+  "plugins": [
+   "Observer",
+   "DrawSVG",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://www.maelruffini.com/",
+  "name": "Maël Ruffini - Portfolio 2025",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://bloomparis.tv/",
+  "name": "Bloom",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger"
+  ]
+ },
+ {
+  "href": "https://helmutagency.com/",
+  "name": "Helmut Agency",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://strakk.nl/",
+  "name": "Strakk",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "MorphSVG",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://www.henriheymans.com/",
+  "name": "Henri Heymans 2025 Portfolio",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://warhol-arts.webflow.io/",
+  "name": "Warhol Arts",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "Observer",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://merodev.net/",
+  "name": "Merouane Bali - Portfolio",
+  "author": "",
+  "plugins": [
+   "useGSAP"
+  ]
+ },
+ {
+  "href": "https://www.clapat.com/templates/bennet/",
+  "name": "Bennet Portfolio Website",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "Flip"
+  ]
+ },
+ {
+  "href": "https://www.alessioatzeni.com/",
+  "name": "Alessio Atzeni",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger"
+  ]
+ },
+ {
+  "href": "https://matvoyce.tv/",
+  "name": "Mat Voyce",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "Observer"
+  ]
+ },
+ {
+  "href": "https://sonsanddaughters.xyz/",
+  "name": "Sons & Daughters",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "Observer",
+   "Flip",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://surimpression.studiokhi.com/",
+  "name": "SurImpression",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "ScrollSmoother",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://radiance.family/",
+  "name": "Radiance",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "Observer"
+  ]
+ },
+ {
+  "href": "https://ahadi-foundation.org/",
+  "name": "Ahadi Foundation",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "DrawSVG",
+   "MotionPath",
+   "Flip",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://www.stabondar.com/",
+  "name": "Stas Bondar",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "DrawSVG",
+   "Flip",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://www.digidop.com/",
+  "name": "Digidop",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger"
+  ]
+ },
+ {
+  "href": "https://studiodirection.com/",
+  "name": "Studio Direction",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "Flip"
+  ]
+ },
+ {
+  "href": "https://maximeguillon.com/",
+  "name": "Maxime's Portfolio",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger"
+  ]
+ },
+ {
+  "href": "https://decathlon-starcow.index.studio/",
+  "name": "Decathlon x Starcow",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger"
+  ]
+ },
+ {
+  "href": "https://www.lazysisterchinese.com/",
+  "name": "Lazy Sister",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger"
+  ]
+ },
+ {
+  "href": "https://gianlucagradogna.com/",
+  "name": "Gianluca Gradogna Portfolio",
+  "author": "",
+  "plugins": [
+   "GSAP Core"
+  ]
+ },
+ {
+  "href": "https://jpoliveira.webflow.io/",
+  "name": "Jp Portfolio",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger"
+  ]
+ },
+ {
+  "href": "https://www.lucasportfolio.dev/",
+  "name": "Lucas Portfolio",
+  "author": "",
+  "plugins": [
+   "ScrollSmoother",
+   "Observer"
+  ]
+ },
+ {
+  "href": "https://50yearswaterloo.com/",
+  "name": "50 Years Waterloo",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "CustomEase"
+  ]
+ },
+ {
+  "href": "https://johannadarrieta.com/",
+  "name": "Johanna Arrieta",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "Flip",
+   "SplitText",
+   "useGSAP"
+  ]
+ },
+ {
+  "href": "https://federicorosa.design/",
+  "name": "Federico Rosa",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger"
+  ]
+ },
+ {
+  "href": "https://keefbrands.com/",
+  "name": "Keef Brands",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "ScrollSmoother",
+   "Flip",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=ic-bHSoIUaA&t=1s",
+  "name": "Showreel",
+  "author": "",
+  "plugins": [
+   "All the GSAP tools"
+  ]
+ },
+ {
+  "href": "https://www.lesburgersdecolette.fr/",
+  "name": "Les Burgers de Colette",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "Flip"
+  ]
+ },
+ {
+  "href": "https://meesverberne.com/",
+  "name": "Mees Verberne",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "DrawSVG",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://www.isabelmoranta.com/",
+  "name": "Isabel Moranta",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "Flip",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://santa.tote.co.jp/",
+  "name": "Catch That Santa",
+  "author": "",
+  "plugins": [
+   "GSAP Core"
+  ]
+ },
+ {
+  "href": "https://www.naelmessaoudene.com/",
+  "name": "Naël Messaoudene",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger"
+  ]
+ },
+ {
+  "href": "https://www.orchestraco.com/",
+  "name": "Orchestra",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://www.raindelaymedia.com/",
+  "name": "Rain Delay Media",
+  "author": "",
+  "plugins": [
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://www.thisisonward.com/",
+  "name": "Onward",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://madewithgsap.com/",
+  "name": "Made With",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger"
+  ]
+ },
+ {
+  "href": "https://max-milkin.com.ua/",
+  "name": "MM",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger"
+  ]
+ },
+ {
+  "href": "https://hocuspocus-studio.fr/en/",
+  "name": "Hocus Pocus Studio",
+  "author": "",
+  "plugins": [
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://www.whoisricky.lol/",
+  "name": "Ricky: Artificial Humour Unit",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "Text"
+  ]
+ },
+ {
+  "href": "https://elementis.co/",
+  "name": "ELEMENTIS",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "Observer",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://www.nicomenezes.com/",
+  "name": "Nico Menezes",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "Flip"
+  ]
+ },
+ {
+  "href": "https://oodos.life/",
+  "name": "OODOS",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "Observer"
+  ]
+ },
+ {
+  "href": "https://www.thomasmonavon.com/",
+  "name": "Thomas Monavon",
+  "author": "",
+  "plugins": [
+   "SplitText",
+   "CustomEase"
+  ]
+ },
+ {
+  "href": "https://www.joaopereira.dev/",
+  "name": "João Pereira",
+  "author": "",
+  "plugins": [
+   "GSAP Core"
+  ]
+ },
+ {
+  "href": "https://jasminadenner.com/",
+  "name": "Jasmina Denner",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "DrawSVG",
+   "MotionPath",
+   "Inertia"
+  ]
+ },
+ {
+  "href": "https://acuraunlockyourenergy.com/",
+  "name": "Acura Unlock Your Energy",
+  "author": "",
+  "plugins": [
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://wodniack.dev/",
+  "name": "Antoine Wodniack",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "DrawSVG",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://pinatap.beaucoup.studio/",
+  "name": "Pinatap",
+  "author": "",
+  "plugins": [
+   "GSAP Core"
+  ]
+ },
+ {
+  "href": "https://labs.chaingpt.org/",
+  "name": "ChainGPT Lab",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "SplitText",
+   "ScrambleText"
+  ]
+ },
+ {
+  "href": "https://www.durup.com/",
+  "name": "Durup",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://retronovaworld.webflow.io/",
+  "name": "Retronova",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "Observer",
+   "Flip",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://www.fiftyseven.co/",
+  "name": "FIFTYSEVEN",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "DrawSVG",
+   "Draggable",
+   "Flip",
+   "SplitText",
+   "Inertia"
+  ]
+ },
+ {
+  "href": "https://www.crftd.nl/",
+  "name": "CRFTD",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "Flip",
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://www.otherlife.xyz/",
+  "name": "Otherlife",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "SplitText",
+   "ScrambleText",
+   "useGSAP"
+  ]
+ },
+ {
+  "href": "https://www.thisisonward.com/",
+  "name": "Onward",
+  "author": "",
+  "plugins": [
+   "SplitText"
+  ]
+ },
+ {
+  "href": "https://www.hat-design.com/",
+  "name": "HAT Design",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "Draggable",
+   "Inertia"
+  ]
+ },
+ {
+  "href": "http://www.flaire-recruiting.com/",
+  "name": "Flaire Recruiting",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger"
+  ]
+ },
+ {
+  "href": "https://www.endurosat.com/",
+  "name": "ENDUROSAT",
+  "author": "",
+  "plugins": [
+   "ScrollSmoother"
+  ]
+ },
+ {
+  "href": "https://beat.noomoagency.com/",
+  "name": "Noomo Beat",
+  "author": "",
+  "plugins": [
+   "ScrollTrigger",
+   "ScrollSmoother"
+  ]
+ }
+]

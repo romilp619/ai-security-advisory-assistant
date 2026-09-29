@@ -1,0 +1,20 @@
+node_modules/
+.next/
+.env*
+!.env.example
+coverage/
+playwright-report/
+test-results/
+*.tsbuildinfo
+.sanity/
+dist/
+data/raw/
+data/import.ndjson
+data/ingestion-report.json
+live-verification*
+*.swp
+*.swo
+
+# Local one-off design research script
+render2.mjs
+next-env.d.ts

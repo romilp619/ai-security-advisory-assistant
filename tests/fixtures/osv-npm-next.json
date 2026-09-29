@@ -1,0 +1,930 @@
+{
+ "vulns": [
+  {
+   "id": "GHSA-223j-4rm8-mrmf",
+   "summary": "Next.js may leak x-middleware-subrequest-id to external hosts",
+   "details": "## Summary\nIn the process of remediating [CVE-2025-29927](https://github.com/advisories/GHSA-f82v-jwr5-mffw), we looked at other possible exploits of Middleware. We independently verified this low severity vulnerability in parallel with two reports from independent researchers.\n\nLearn more [here](https://vercel.com/changelog/cve-2025-30218-5DREmEH765PoeAsrNNQj3O).\n\n## Credit\n\nThank you to Jinseo Kim [kjsman](https://hackerone.com/kjsman?type=user) and\u00a0[RyotaK](https://hackerone.com/ryotak?type=user) (GMO Flatt Security Inc.) with [takumi-san.ai](https://takumi-san.ai)\u00a0for the responsible disclosure. These researchers were awarded as part of our bug bounty program.",
+   "aliases": [
+    "CVE-2025-30218"
+   ],
+   "modified": "2025-10-13T15:35:50Z",
+   "published": "2025-04-02T22:35:37Z",
+   "database_specific": {
+    "nvd_published_at": "2025-04-02T22:15:19Z",
+    "cwe_ids": [
+     "CWE-200"
+    ],
+    "severity": "LOW",
+    "github_reviewed": true,
+    "github_reviewed_at": "2025-04-02T22:35:37Z"
+   },
+   "references": [
+    {
+     "type": "WEB",
+     "url": "https://github.com/vercel/next.js/security/advisories/GHSA-223j-4rm8-mrmf"
+    },
+    {
+     "type": "ADVISORY",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-30218"
+    },
+    {
+     "type": "PACKAGE",
+     "url": "https://github.com/vercel/next.js"
+    },
+    {
+     "type": "WEB",
+     "url": "https://vercel.com/changelog/cve-2025-30218-5DREmEH765PoeAsrNNQj3O"
+    }
+   ],
+   "affected": [
+    {
+     "package": {
+      "name": "next",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/next"
+     },
+     "ranges": [
+      {
+       "type": "SEMVER",
+       "events": [
+        {
+         "introduced": "12.3.5"
+        },
+        {
+         "fixed": "12.3.6"
+        }
+       ]
+      }
+     ],
+     "versions": [
+      "12.3.5"
+     ],
+     "database_specific": {
+      "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2025/04/GHSA-223j-4rm8-mrmf/GHSA-223j-4rm8-mrmf.json"
+     }
+    },
+    {
+     "package": {
+      "name": "next",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/next"
+     },
+     "ranges": [
+      {
+       "type": "SEMVER",
+       "events": [
+        {
+         "introduced": "13.5.9"
+        },
+        {
+         "fixed": "13.5.10"
+        }
+       ]
+      }
+     ],
+     "versions": [
+      "13.5.9"
+     ],
+     "database_specific": {
+      "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2025/04/GHSA-223j-4rm8-mrmf/GHSA-223j-4rm8-mrmf.json"
+     }
+    },
+    {
+     "package": {
+      "name": "next",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/next"
+     },
+     "ranges": [
+      {
+       "type": "SEMVER",
+       "events": [
+        {
+         "introduced": "14.2.25"
+        },
+        {
+         "fixed": "14.2.26"
+        }
+       ]
+      }
+     ],
+     "versions": [
+      "14.2.25"
+     ],
+     "database_specific": {
+      "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2025/04/GHSA-223j-4rm8-mrmf/GHSA-223j-4rm8-mrmf.json"
+     }
+    },
+    {
+     "package": {
+      "name": "next",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/next"
+     },
+     "ranges": [
+      {
+       "type": "SEMVER",
+       "events": [
+        {
+         "introduced": "15.2.3"
+        },
+        {
+         "fixed": "15.2.4"
+        }
+       ]
+      }
+     ],
+     "versions": [
+      "15.2.3"
+     ],
+     "database_specific": {
+      "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2025/04/GHSA-223j-4rm8-mrmf/GHSA-223j-4rm8-mrmf.json"
+     }
+    }
+   ],
+   "schema_version": "1.9.0",
+   "severity": [
+    {
+     "type": "CVSS_V4",
+     "score": "CVSS:4.0/AV:N/AC:H/AT:P/PR:N/UI:N/VC:L/VI:N/VA:N/SC:N/SI:N/SA:N/E:U"
+    }
+   ]
+  },
+  {
+   "id": "GHSA-3h52-269p-cp9r",
+   "summary": "Information exposure in Next.js dev server due to lack of origin verification",
+   "details": "## Summary\n\nA low-severity vulnerability in **Next.js** has been fixed in **version 15.2.2**. This issue may have allowed limited source code exposure when the dev server was running with the App Router enabled. The vulnerability only affects local development environments and requires the user to visit a malicious webpage while `npm run dev` is active.\n\nBecause the mitigation is potentially a breaking change for some development setups, to opt-in to the fix, you must configure `allowedDevOrigins` in your next config after upgrading to a patched version. [Learn more](https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins).\n\nLearn more: https://vercel.com/changelog/cve-2025-48068\n\n## Credit\n\nThanks to [sapphi-red](https://github.com/sapphi-red) and [Radman Siddiki](https://github.com/R4356th) for responsibly disclosing this issue.",
+   "aliases": [
+    "CVE-2025-48068"
+   ],
+   "modified": "2026-09-10T03:49:36.489791181Z",
+   "published": "2025-05-28T21:52:13Z",
+   "database_specific": {
+    "cwe_ids": [
+     "CWE-1385"
+    ],
+    "severity": "LOW",
+    "github_reviewed": true,
+    "github_reviewed_at": "2025-05-28T21:52:13Z",
+    "nvd_published_at": "2025-05-30T04:15:48Z"
+   },
+   "references": [
+    {
+     "type": "WEB",
+     "url": "https://github.com/vercel/next.js/security/advisories/GHSA-3h52-269p-cp9r"
+    },
+    {
+     "type": "ADVISORY",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-48068"
+    },
+    {
+     "type": "PACKAGE",
+     "url": "https://github.com/vercel/next.js"
+    },
+    {
+     "type": "WEB",
+     "url": "https://vercel.com/changelog/cve-2025-48068"
+    }
+   ],
+   "affected": [
+    {
+     "package": {
+      "name": "next",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/next"
+     },
+     "ranges": [
+      {
+       "type": "SEMVER",
+       "events": [
+        {
+         "introduced": "15.0.0"
+        },
+        {
+         "fixed": "15.2.2"
+        }
+       ]
+      }
+     ],
+     "database_specific": {
+      "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2025/05/GHSA-3h52-269p-cp9r/GHSA-3h52-269p-cp9r.json"
+     }
+    },
+    {
+     "package": {
+      "name": "next",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/next"
+     },
+     "ranges": [
+      {
+       "type": "ECOSYSTEM",
+       "events": [
+        {
+         "introduced": "13.0"
+        },
+        {
+         "fixed": "14.2.30"
+        }
+       ]
+      }
+     ],
+     "database_specific": {
+      "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2025/05/GHSA-3h52-269p-cp9r/GHSA-3h52-269p-cp9r.json"
+     }
+    }
+   ],
+   "schema_version": "1.9.0",
+   "severity": [
+    {
+     "type": "CVSS_V4",
+     "score": "CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:P/VC:L/VI:N/VA:N/SC:L/SI:N/SA:N"
+    }
+   ]
+  },
+  {
+   "id": "GHSA-5f7q-jpqc-wp7h",
+   "summary": "Next.js has Unbounded Memory Consumption via PPR Resume Endpoint ",
+   "details": "A denial of service vulnerability exists in Next.js versions with Partial Prerendering (PPR) enabled when running in minimal mode. The PPR resume endpoint accepts unauthenticated POST requests with the `Next-Resume: 1` header and processes attacker-controlled postponed state data. Two closely related vulnerabilities allow an attacker to crash the server process through memory exhaustion:\n\n1. **Unbounded request body buffering**: The server buffers the entire POST request body into memory using `Buffer.concat()` without enforcing any size limit, allowing arbitrarily large payloads to exhaust available memory.\n\n2. **Unbounded decompression (zipbomb)**: The resume data cache is decompressed using `inflateSync()` without limiting the decompressed output size. A small compressed payload can expand to hundreds of megabytes or gigabytes, causing memory exhaustion.\n\nBoth attack vectors result in a fatal V8 out-of-memory error (`FATAL ERROR: Reached heap limit Allocation failed - JavaScript heap out of memory`) causing the Node.js process to terminate. The zipbomb variant is particularly dangerous as it can bypass reverse proxy request size limits while still causing large memory allocation on the server.\n\nTo be affected, an application must run with `experimental.ppr: true` or `cacheComponents: true` configured along with the NEXT_PRIVATE_MINIMAL_MODE=1 environment variable.\n\nStrongly consider upgrading to 15.6.0-canary.61 or 16.1.5 to reduce risk and prevent availability issues in Next applications.",
+   "aliases": [
+    "CVE-2025-59472"
+   ],
+   "modified": "2026-09-10T03:50:32.644775462Z",
+   "published": "2026-01-28T15:20:55Z",
+   "database_specific": {
+    "github_reviewed": true,
+    "github_reviewed_at": "2026-01-28T15:20:55Z",
+    "nvd_published_at": "2026-01-26T22:15:53Z",
+    "cwe_ids": [
+     "CWE-400",
+     "CWE-409",
+     "CWE-770"
+    ],
+    "severity": "MODERATE"
+   },
+   "references": [
+    {
+     "type": "WEB",
+     "url": "https://github.com/vercel/next.js/security/advisories/GHSA-5f7q-jpqc-wp7h"
+    },
+    {
+     "type": "ADVISORY",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-59472"
+    },
+    {
+     "type": "PACKAGE",
+     "url": "https://github.com/vercel/next.js"
+    },
+    {
+     "type": "WEB",
+     "url": "https://vercel.com/changelog/summaries-of-cve-2025-59471-and-cve-2025-59472"
+    }
+   ],
+   "affected": [
+    {
+     "package": {
+      "name": "next",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/next"
+     },
+     "ranges": [
+      {
+       "type": "SEMVER",
+       "events": [
+        {
+         "introduced": "16.0.0-beta.0"
+        },
+        {
+         "fixed": "16.1.5"
+        }
+       ]
+      }
+     ],
+     "database_specific": {
+      "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2026/01/GHSA-5f7q-jpqc-wp7h/GHSA-5f7q-jpqc-wp7h.json"
+     }
+    },
+    {
+     "package": {
+      "name": "next",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/next"
+     },
+     "ranges": [
+      {
+       "type": "SEMVER",
+       "events": [
+        {
+         "introduced": "15.0.0-canary.0"
+        },
+        {
+         "last_affected": "15.0.0-canary.205"
+        }
+       ]
+      }
+     ],
+     "database_specific": {
+      "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2026/01/GHSA-5f7q-jpqc-wp7h/GHSA-5f7q-jpqc-wp7h.json"
+     }
+    },
+    {
+     "package": {
+      "name": "next",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/next"
+     },
+     "ranges": [
+      {
+       "type": "SEMVER",
+       "events": [
+        {
+         "introduced": "15.0.1-canary.0"
+        },
+        {
+         "last_affected": "15.0.1-canary.3"
+        }
+       ]
+      }
+     ],
+     "database_specific": {
+      "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2026/01/GHSA-5f7q-jpqc-wp7h/GHSA-5f7q-jpqc-wp7h.json"
+     }
+    },
+    {
+     "package": {
+      "name": "next",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/next"
+     },
+     "ranges": [
+      {
+       "type": "SEMVER",
+       "events": [
+        {
+         "introduced": "15.0.2-canary.0"
+        },
+        {
+         "last_affected": "15.0.2-canary.11"
+        }
+       ]
+      }
+     ],
+     "database_specific": {
+      "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2026/01/GHSA-5f7q-jpqc-wp7h/GHSA-5f7q-jpqc-wp7h.json"
+     }
+    },
+    {
+     "package": {
+      "name": "next",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/next"
+     },
+     "ranges": [
+      {
+       "type": "SEMVER",
+       "events": [
+        {
+         "introduced": "15.0.3-canary.0"
+        },
+        {
+         "last_affected": "15.0.3-canary.9"
+        }
+       ]
+      }
+     ],
+     "database_specific": {
+      "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2026/01/GHSA-5f7q-jpqc-wp7h/GHSA-5f7q-jpqc-wp7h.json"
+     }
+    },
+    {
+     "package": {
+      "name": "next",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/next"
+     },
+     "ranges": [
+      {
+       "type": "SEMVER",
+       "events": [
+        {
+         "introduced": "15.0.4-canary.0"
+        },
+        {
+         "last_affected": "15.0.4-canary.52"
+        }
+       ]
+      }
+     ],
+     "database_specific": {
+      "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2026/01/GHSA-5f7q-jpqc-wp7h/GHSA-5f7q-jpqc-wp7h.json"
+     }
+    },
+    {
+     "package": {
+      "name": "next",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/next"
+     },
+     "ranges": [
+      {
+       "type": "SEMVER",
+       "events": [
+        {
+         "introduced": "15.1.1-canary.0"
+        },
+        {
+         "last_affected": "15.1.1-canary.27"
+        }
+       ]
+      }
+     ],
+     "database_specific": {
+      "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2026/01/GHSA-5f7q-jpqc-wp7h/GHSA-5f7q-jpqc-wp7h.json"
+     }
+    },
+    {
+     "package": {
+      "name": "next",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/next"
+     },
+     "ranges": [
+      {
+       "type": "SEMVER",
+       "events": [
+        {
+         "introduced": "15.2.0-canary.0"
+        },
+        {
+         "last_affected": "15.2.0-canary.77"
+        }
+       ]
+      }
+     ],
+     "database_specific": {
+      "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2026/01/GHSA-5f7q-jpqc-wp7h/GHSA-5f7q-jpqc-wp7h.json"
+     }
+    },
+    {
+     "package": {
+      "name": "next",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/next"
+     },
+     "ranges": [
+      {
+       "type": "SEMVER",
+       "events": [
+        {
+         "introduced": "15.2.1-canary.0"
+        },
+        {
+         "last_affected": "15.2.1-canary.6"
+        }
+       ]
+      }
+     ],
+     "database_specific": {
+      "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2026/01/GHSA-5f7q-jpqc-wp7h/GHSA-5f7q-jpqc-wp7h.json"
+     }
+    },
+    {
+     "package": {
+      "name": "next",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/next"
+     },
+     "ranges": [
+      {
+       "type": "SEMVER",
+       "events": [
+        {
+         "introduced": "15.2.2-canary.0"
+        },
+        {
+         "last_affected": "15.2.2-canary.7"
+        }
+       ]
+      }
+     ],
+     "database_specific": {
+      "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2026/01/GHSA-5f7q-jpqc-wp7h/GHSA-5f7q-jpqc-wp7h.json"
+     }
+    },
+    {
+     "package": {
+      "name": "next",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/next"
+     },
+     "ranges": [
+      {
+       "type": "SEMVER",
+       "events": [
+        {
+         "introduced": "15.3.0-canary.0"
+        },
+        {
+         "last_affected": "15.3.0-canary.46"
+        }
+       ]
+      }
+     ],
+     "database_specific": {
+      "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2026/01/GHSA-5f7q-jpqc-wp7h/GHSA-5f7q-jpqc-wp7h.json"
+     }
+    },
+    {
+     "package": {
+      "name": "next",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/next"
+     },
+     "ranges": [
+      {
+       "type": "SEMVER",
+       "events": [
+        {
+         "introduced": "15.3.1-canary.0"
+        },
+        {
+         "last_affected": "15.3.1-canary.15"
+        }
+       ]
+      }
+     ],
+     "database_specific": {
+      "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2026/01/GHSA-5f7q-jpqc-wp7h/GHSA-5f7q-jpqc-wp7h.json"
+     }
+    },
+    {
+     "package": {
+      "name": "next",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/next"
+     },
+     "ranges": [
+      {
+       "type": "SEMVER",
+       "events": [
+        {
+         "introduced": "15.4.0-canary.0"
+        },
+        {
+         "last_affected": "15.4.0-canary.130"
+        }
+       ]
+      }
+     ],
+     "database_specific": {
+      "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2026/01/GHSA-5f7q-jpqc-wp7h/GHSA-5f7q-jpqc-wp7h.json"
+     }
+    },
+    {
+     "package": {
+      "name": "next",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/next"
+     },
+     "ranges": [
+      {
+       "type": "SEMVER",
+       "events": [
+        {
+         "introduced": "15.4.2-canary.0"
+        },
+        {
+         "last_affected": "15.4.2-canary.56"
+        }
+       ]
+      }
+     ],
+     "database_specific": {
+      "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2026/01/GHSA-5f7q-jpqc-wp7h/GHSA-5f7q-jpqc-wp7h.json"
+     }
+    },
+    {
+     "package": {
+      "name": "next",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/next"
+     },
+     "ranges": [
+      {
+       "type": "SEMVER",
+       "events": [
+        {
+         "introduced": "15.5.1-canary.0"
+        },
+        {
+         "last_affected": "15.5.1-canary.39"
+        }
+       ]
+      }
+     ],
+     "database_specific": {
+      "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2026/01/GHSA-5f7q-jpqc-wp7h/GHSA-5f7q-jpqc-wp7h.json"
+     }
+    },
+    {
+     "package": {
+      "name": "next",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/next"
+     },
+     "ranges": [
+      {
+       "type": "SEMVER",
+       "events": [
+        {
+         "introduced": "15.6.0-canary.0"
+        },
+        {
+         "fixed": "15.6.0-canary.61"
+        }
+       ]
+      }
+     ],
+     "database_specific": {
+      "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2026/01/GHSA-5f7q-jpqc-wp7h/GHSA-5f7q-jpqc-wp7h.json"
+     }
+    }
+   ],
+   "schema_version": "1.9.0",
+   "severity": [
+    {
+     "type": "CVSS_V3",
+     "score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    }
+   ]
+  },
+  {
+   "id": "GHSA-f82v-jwr5-mffw",
+   "summary": "Authorization Bypass in Next.js Middleware",
+   "details": "# Impact\nIt is possible to bypass authorization checks within a Next.js application, if the authorization check occurs in middleware.\n\n# Patches\n* For Next.js 15.x, this issue is fixed in `15.2.3`\n* For Next.js 14.x, this issue is fixed in `14.2.25`\n* For Next.js 13.x, this issue is fixed in 13.5.9\n* For Next.js 12.x, this issue is fixed in 12.3.5\n* For Next.js 11.x, consult the below workaround.\n\n_Note: Next.js deployments hosted on Vercel are automatically protected against this vulnerability._\n\n# Workaround\nIf patching to a safe version is infeasible, we recommend that you prevent external user requests which contain the `x-middleware-subrequest` header from reaching your Next.js application.\n\n## Credits\n\n- Allam Rachid (zhero;)\n- Allam Yasser (inzo_)",
+   "aliases": [
+    "CVE-2025-29927"
+   ],
+   "modified": "2026-09-10T03:50:23.209773204Z",
+   "published": "2025-03-21T15:20:12Z",
+   "database_specific": {
+    "github_reviewed_at": "2025-03-21T15:20:12Z",
+    "nvd_published_at": "2025-03-21T15:15:42Z",
+    "cwe_ids": [
+     "CWE-285",
+     "CWE-863"
+    ],
+    "severity": "CRITICAL",
+    "github_reviewed": true
+   },
+   "references": [
+    {
+     "type": "WEB",
+     "url": "https://github.com/vercel/next.js/security/advisories/GHSA-f82v-jwr5-mffw"
+    },
+    {
+     "type": "ADVISORY",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-29927"
+    },
+    {
+     "type": "WEB",
+     "url": "https://github.com/vercel/next.js/commit/52a078da3884efe6501613c7834a3d02a91676d2"
+    },
+    {
+     "type": "WEB",
+     "url": "https://github.com/vercel/next.js/commit/5fd3ae8f8542677c6294f32d18022731eab6fe48"
+    },
+    {
+     "type": "PACKAGE",
+     "url": "https://github.com/vercel/next.js"
+    },
+    {
+     "type": "WEB",
+     "url": "https://github.com/vercel/next.js/releases/tag/v12.3.5"
+    },
+    {
+     "type": "WEB",
+     "url": "https://github.com/vercel/next.js/releases/tag/v13.5.9"
+    },
+    {
+     "type": "WEB",
+     "url": "https://security.netapp.com/advisory/ntap-20250328-0002"
+    },
+    {
+     "type": "WEB",
+     "url": "https://vercel.com/changelog/vercel-firewall-proactively-protects-against-vulnerability-with-middleware"
+    },
+    {
+     "type": "WEB",
+     "url": "http://www.openwall.com/lists/oss-security/2025/03/23/3"
+    },
+    {
+     "type": "WEB",
+     "url": "http://www.openwall.com/lists/oss-security/2025/03/23/4"
+    }
+   ],
+   "affected": [
+    {
+     "package": {
+      "name": "next",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/next"
+     },
+     "ranges": [
+      {
+       "type": "SEMVER",
+       "events": [
+        {
+         "introduced": "13.0.0"
+        },
+        {
+         "fixed": "13.5.9"
+        }
+       ]
+      }
+     ],
+     "database_specific": {
+      "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2025/03/GHSA-f82v-jwr5-mffw/GHSA-f82v-jwr5-mffw.json"
+     }
+    },
+    {
+     "package": {
+      "name": "next",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/next"
+     },
+     "ranges": [
+      {
+       "type": "SEMVER",
+       "events": [
+        {
+         "introduced": "14.0.0"
+        },
+        {
+         "fixed": "14.2.25"
+        }
+       ]
+      }
+     ],
+     "database_specific": {
+      "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2025/03/GHSA-f82v-jwr5-mffw/GHSA-f82v-jwr5-mffw.json"
+     }
+    },
+    {
+     "package": {
+      "name": "next",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/next"
+     },
+     "ranges": [
+      {
+       "type": "SEMVER",
+       "events": [
+        {
+         "introduced": "15.0.0"
+        },
+        {
+         "fixed": "15.2.3"
+        }
+       ]
+      }
+     ],
+     "database_specific": {
+      "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2025/03/GHSA-f82v-jwr5-mffw/GHSA-f82v-jwr5-mffw.json"
+     }
+    },
+    {
+     "package": {
+      "name": "next",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/next"
+     },
+     "ranges": [
+      {
+       "type": "SEMVER",
+       "events": [
+        {
+         "introduced": "12.0.0"
+        },
+        {
+         "fixed": "12.3.5"
+        }
+       ]
+      }
+     ],
+     "database_specific": {
+      "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2025/03/GHSA-f82v-jwr5-mffw/GHSA-f82v-jwr5-mffw.json"
+     }
+    }
+   ],
+   "schema_version": "1.9.0",
+   "severity": [
+    {
+     "type": "CVSS_V3",
+     "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N"
+    }
+   ]
+  },
+  {
+   "id": "GHSA-gp8f-8m3g-qvj9",
+   "summary": "Next.js Cache Poisoning",
+   "details": "### Impact\n\nBy sending a crafted HTTP request, it is possible to poison the cache of a non-dynamic server-side rendered route in the pages router (this does not affect the app router). When this crafted request is sent it could coerce Next.js to cache a route that is meant to not be cached and send a `Cache-Control: s-maxage=1, stale-while-revalidate` header which some upstream CDNs may cache as well. \n\nTo be potentially affected all of the following must apply: \n\n- Next.js between 13.5.1 and 14.2.9\n- Using pages router\n- Using non-dynamic server-side rendered routes e.g. `pages/dashboard.tsx` not `pages/blog/[slug].tsx`\n\nThe below configurations are unaffected:\n\n- Deployments using only app router\n- Deployments on [Vercel](https://vercel.com/) are not affected\n\n\n### Patches\n\nThis vulnerability was resolved in Next.js v13.5.7, v14.2.10, and later. We recommend upgrading regardless of whether you can reproduce the issue or not.\n\n### Workarounds\n\nThere are no official or recommended workarounds for this issue, we recommend that users patch to a safe version.\n\n#### Credits\n\n- Allam Rachid (zhero_)\n- Henry Chen",
+   "aliases": [
+    "CVE-2024-46982"
+   ],
+   "modified": "2026-09-10T03:50:18.787070679Z",
+   "published": "2024-09-17T21:58:09Z",
+   "database_specific": {
+    "github_reviewed": true,
+    "github_reviewed_at": "2024-09-17T21:58:09Z",
+    "nvd_published_at": "2024-09-17T22:15:02Z",
+    "cwe_ids": [
+     "CWE-349",
+     "CWE-639"
+    ],
+    "severity": "HIGH"
+   },
+   "references": [
+    {
+     "type": "WEB",
+     "url": "https://github.com/vercel/next.js/security/advisories/GHSA-gp8f-8m3g-qvj9"
+    },
+    {
+     "type": "ADVISORY",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-46982"
+    },
+    {
+     "type": "WEB",
+     "url": "https://github.com/vercel/next.js/commit/7ed7f125e07ef0517a331009ed7e32691ba403d3"
+    },
+    {
+     "type": "WEB",
+     "url": "https://github.com/vercel/next.js/commit/bd164d53af259c05f1ab434004bcfdd3837d7cda"
+    },
+    {
+     "type": "PACKAGE",
+     "url": "https://github.com/vercel/next.js"
+    }
+   ],
+   "affected": [
+    {
+     "package": {
+      "name": "next",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/next"
+     },
+     "ranges": [
+      {
+       "type": "SEMVER",
+       "events": [
+        {
+         "introduced": "13.5.1"
+        },
+        {
+         "fixed": "13.5.7"
+        }
+       ]
+      }
+     ],
+     "database_specific": {
+      "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2024/09/GHSA-gp8f-8m3g-qvj9/GHSA-gp8f-8m3g-qvj9.json"
+     }
+    },
+    {
+     "package": {
+      "name": "next",
+      "ecosystem": "npm",
+      "purl": "pkg:npm/next"
+     },
+     "ranges": [
+      {
+       "type": "SEMVER",
+       "events": [
+        {
+         "introduced": "14.0.0"
+        },
+        {
+         "fixed": "14.2.10"
+        }
+       ]
+      }
+     ],
+     "database_specific": {
+      "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2024/09/GHSA-gp8f-8m3g-qvj9/GHSA-gp8f-8m3g-qvj9.json"
+     }
+    }
+   ],
+   "schema_version": "1.9.0",
+   "severity": [
+    {
+     "type": "CVSS_V3",
+     "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    },
+    {
+     "type": "CVSS_V4",
+     "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N"
+    }
+   ]
+  }
+ ]
+}

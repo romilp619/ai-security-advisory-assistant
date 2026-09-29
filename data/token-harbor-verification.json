@@ -1,0 +1,47 @@
+{
+  "at": "2026-09-29T09:44:55.704Z",
+  "results": [
+    {
+      "software": "axios",
+      "ms": 25543,
+      "complete": true,
+      "findings": 32,
+      "curated": 7,
+      "sources": [
+        {
+          "id": "osv.dev",
+          "status": "ok"
+        },
+        {
+          "id": "sanity-knowledge-base",
+          "status": "ok"
+        }
+      ],
+      "kb": {
+        "entriesRead": 1,
+        "advisoriesVerified": 11
+      }
+    },
+    {
+      "software": "Next.js",
+      "ms": 11008,
+      "complete": true,
+      "findings": 30,
+      "curated": 1,
+      "sources": [
+        {
+          "id": "osv.dev",
+          "status": "ok"
+        },
+        {
+          "id": "sanity-knowledge-base",
+          "status": "ok"
+        }
+      ],
+      "kb": {
+        "entriesRead": 1,
+        "advisoriesVerified": 7
+      }
+    }
+  ]
+}

