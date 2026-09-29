@@ -8,6 +8,8 @@ Security advice should be traceable to original advisories and exact versions. W
 
 A developer can ask about an npm package and installed version, or drag in a `package-lock.json`. The app checks live OSV.dev advisories and our curated Sanity Context Knowledge Base, then shows affected ranges, source-listed fixes, original links, and coverage of the sources actually checked. It never treats "no match" as proof of safety.
 
+The [nine-step screenshot walkthrough](README.md#step-by-step-screenshots) shows the research question, findings, coverage, source evidence, activity trail, and dependency-file check.
+
 ## Why It Is Defensible (and We Can Prove It)
 
 Sanity Context MCP supplies relevant Knowledge Base entries. The server verifies referenced published records in the existing Sanity dataset and checks the package through OSV.dev independently. Model-selected paths and excerpts must match retrieved source data; code calculates version outcomes. Coverage and Activity expose completed operations and failures. The latest recorded validation includes 129 passing offline tests, 26 passing browser tests, and one successful opt-in live integration test. [VERIFICATION.md](VERIFICATION.md) records the evidence and its limits.

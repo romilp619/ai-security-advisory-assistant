@@ -18,6 +18,64 @@ A vulnerability answer is only useful if a developer can tell which package and 
 
 The lockfile check reads JSON as data; it does not run install scripts or scan application code.
 
+### Step-by-step screenshots
+
+These screenshots show a **local** research session and the sample dependency-file check. The project has not been deployed to a public URL.
+
+#### 1. Start a security research question
+
+Open the Research page. Enter the software name and, if known, the installed version.
+
+![Empty research form with software, version, and question fields](docs/screenshots/walkthrough/01-start-research.png)
+
+#### 2. Ask a specific, versioned question
+
+For this example, enter **Next.js**, version **14.2.24**, and ask whether **CVE-2025-29927** applies, what fixes are listed, and which deployment conditions need review. Select **Run research**.
+
+![Research form filled with a Next.js version and CVE question](docs/screenshots/walkthrough/02-enter-security-question.png)
+
+#### 3. Read the research overview
+
+The overview shows the advisory findings, version assessment, affected ranges, and source-listed fixes. Open an original advisory link before acting on a result.
+
+![Research overview with advisory findings and affected version ranges](docs/screenshots/walkthrough/03-research-overview.png)
+
+#### 4. Check coverage before trusting the answer
+
+The Coverage tab records the resolved npm package, how many live advisories were retrieved and matched, whether the Knowledge Base completed, and the timing of each source. A failed source means incomplete coverage.
+
+![Coverage tab listing the completed live and Knowledge Base checks](docs/screenshots/walkthrough/04-source-coverage.png)
+
+#### 5. Inspect the evidence
+
+The Sources tab shows the retrieved Knowledge Base entry and links to the original advisory records. Use these links to verify the claim and any conditions in the original source.
+
+![Sources tab with Knowledge Base entry and original advisory links](docs/screenshots/walkthrough/05-source-evidence.png)
+
+#### 6. Review the activity trail
+
+The Activity tab shows the operations performed for this request, including package resolution, live lookup, Knowledge Base reads, and record verification.
+
+![Activity tab showing the completed research operations](docs/screenshots/walkthrough/06-research-activity.png)
+
+#### 7. Pick a sample lockfile
+
+The repository includes [a demo `package-lock.json`](examples/dependency-demo/package-lock.json). You can use that file to try the Dependencies feature before checking your own project.
+
+![File Explorer showing the sample package-lock.json](docs/screenshots/walkthrough/07-sample-lockfile.png)
+
+#### 8. Upload by choosing or dragging the file
+
+Open **Dependencies** and choose the lockfile, or drag and drop it onto the upload area. The app parses the JSON as data; it does not install packages or run scripts.
+
+![Dependencies tab with the drag-and-drop package-lock area](docs/screenshots/walkthrough/08-drag-drop-lockfile.png)
+
+#### 9. Review exact dependency matches
+
+The result groups matching source records by installed package and version. Follow each advisory link and check its listed fix and conditions. This is a known-advisory lookup, not a scan of your code or deployment.
+
+![Dependency results grouped by package and exact installed version](docs/screenshots/walkthrough/09-dependency-results.png)
+
 ## Why It Is Defensible (and We Can Prove It)
 
 The server reads the Knowledge Base through Sanity Context MCP, verifies referenced published advisory records in the existing Sanity dataset, and checks npm advisories live through OSV.dev. The model selects relevant paths and source passages; application code validates those selections and calculates version outcomes. A finding links to its original record, and the Coverage and Activity views show which real operations completed.
