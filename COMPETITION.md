@@ -1,70 +1,37 @@
-# DEV Community Sanity Challenge — Path One
+# AI Security Advisory Assistant - submission draft
 
-## What I Built
+## Inspiration
 
-AI Security Advisory Assistant is a defensive research workspace for developers investigating documented vulnerabilities in specific software versions. Enter a product, installed version, and question; inspect source-grounded findings, exact affected ranges, branch-specific patches, and evidence limitations.
+Security advice should be traceable to original advisories and exact versions. We wanted developers to see both the evidence behind an answer and the limits of that evidence, especially when configuration or deployment conditions still need review.
 
-The interface includes a research form, selectable example questions, advisory cards, a Knowledge Base evidence panel, and an actual-operation activity trail. No simulated successful reports appear when credentials are missing.
+## What It Does
 
-## Demo instructions
+A developer can ask about an npm package and installed version, or drag in a `package-lock.json`. The app checks live OSV.dev advisories and our curated Sanity Context Knowledge Base, then shows affected ranges, source-listed fixes, original links, and coverage of the sources actually checked. It never treats "no match" as proof of safety.
 
-Complete the authenticated setup in README.md. Import the four real advisories into the existing production dataset, deploy the schema, build/review the Knowledge Base, and configure its dedicated Context MCP endpoint. Run the live test before recording a demo.
+## Why It Is Defensible (and We Can Prove It)
 
-1. Ask about Next.js 14.2.24 and its middleware authorization bypass.
-2. Open Activity to show initial_context followed by knowledge_base_read.
-3. Open Sources to show entry paths, returned text, source URLs and timestamps.
-4. Inspect affected ranges and 14.2.25 as the documented fix for that branch.
-5. Ask about 14.2.25: show “Outside listed range,” not “safe.”
-6. Ask about Vite 6.2.2: show the distinction between a version match and development-server exposure conditions.
-7. Try an unsupported product or vendor build to demonstrate honest uncertainty.
+Sanity Context MCP supplies relevant Knowledge Base entries. The server verifies referenced published records in the existing Sanity dataset and checks the package through OSV.dev independently. Model-selected paths and excerpts must match retrieved source data; code calculates version outcomes. Coverage and Activity expose completed operations and failures. The latest recorded validation includes 129 passing offline tests, 26 passing browser tests, and one successful opt-in live integration test. [VERIFICATION.md](VERIFICATION.md) records the evidence and its limits.
 
-## Repository information
+## How We Built It
 
-- Repository URL: **[Add your actual public repository URL]**
-- Deployment URL: **[Add only after deployment and verification]**
-- Demo video: **[Add after recording a real session]**
-- Sanity project ID field for submission: **o7qa6o3y** (existing project; not a fabricated placeholder)
-- Dataset: **production**
-- Local WSL directory: /home/romil/ai-security-advisory-assistant
+The browser talks to a Next.js Node server. It queries OSV.dev for npm advisories, reads curated entries through Sanity Context MCP, verifies exact advisory records in the existing Sanity **production** dataset, and returns a cited report. A separate importer brings selected GitHub Security Advisories into the existing Sanity project; changed imports require a Knowledge Base rebuild. The current local model uses Token Harbor. Full setup is in [docs/GITHUB_SETUP.md](docs/GITHUB_SETUP.md).
 
-## How I Used Sanity
+## What We Learned
 
-Sanity stores the advisory schema: identity, product/ecosystem, version ranges, fixes, source descriptions, severity/CVSS when present, dates, provenance, deployment review, and source references. A deterministic importer fetches real GitHub advisory data and preserves source hashes and timestamps.
+Citations must be checked, not merely displayed. Broad Knowledge Base entries created too many choices for structured model output, so we bounded retrieval and validated each selected passage. Independent source paths also let the app report partial results honestly when one service is unavailable.
 
-The Knowledge Base builds a navigable collection over these structured records. Its entries preserve relevant context and source relationships across advisory prose; its issue workflow supports resolving contradictions. This lets the agent discover the relevant context before assessing exact record fields.
+## Challenges
 
-## Knowledge Base architecture
+Advisories can share a CVE yet disagree on affected ranges or fixes. A version match can still depend on deployment conditions. Free model endpoints may be overloaded or return malformed JSON. The app preserves conflicting records, labels unreviewed conditions, validates model output, and reports source failures.
 
-Existing Sanity production documents → reviewed Knowledge Base entries and outline → dedicated Context MCP in Knowledge Base mode → application-controlled read operations → parameterized exact advisory verification → validated evidence excerpts and deterministic version assessment.
+## Accomplishments
 
-Only Knowledge Base sources are attached to the MCP. No search engine or local JSON fixture substitutes for live retrieval.
+We built the research interface, source and activity views, and drag-and-drop dependency check. The existing Sanity production dataset contains 122 imported advisory documents. The Knowledge Base and live model path passed a local end-to-end test for a real Next.js advisory. The code and setup guide are published at [github.com/romilp619/ai-security-advisory-assistant](https://github.com/romilp619/ai-security-advisory-assistant), with API keys excluded from Git.
 
-## Which Sanity Context tools were used
+## What's Next
 
-Implemented tool calls:
-- **initial_context** obtains the Knowledge Base outline.
-- **knowledge_base_read** reads the model-selected outline paths using the documented knowledgeBase and paths arguments.
+Choose a Node-compatible host, set server-side secrets and an access code, run a hosted smoke test, review more curated advisory conditions, and add shared rate limiting and account-based access before broad public use. A live deployment URL and demo video will be added only after they exist and are verified.
 
-The exact Content Lake verification query is a separate data path and is not described as a Context tool. Live tool execution must be demonstrated with a configured endpoint before submitting this claim as a deployed result.
+## Built With
 
-## How the agent uses the retrieved content
-
-The model selects relevant entries from the outline, then selects advisory evidence and literal impact/remediation excerpts. The server checks that IDs were retrieved, structured records match the requested product, and quotes exist in their claimed sources. Version outcomes are computed conservatively for supported npm versions. Incomplete or contradictory evidence remains visible.
-
-## Example research scenarios
-
-- Next.js 14.2.24: documented middleware bypass, conditions, fixes.
-- Next.js 14.2.25: outside that advisory's affected range, with no blanket safety claim.
-- Vite 6.2.2: affected version and network-exposed dev-server conditions.
-- Next.js 14.2.24+vendor.1: backport/build uncertainty.
-- Product outside the imported corpus: evidence not established.
-
-## Testing and verification notes
-
-See VERIFICATION.md for executed results. Automated coverage includes schema/input validation, version boundaries, ambiguity, attribution, conflicting records, local MCP wire behavior, malicious retrieved instructions, API failures, and desktop/mobile browser states.
-
-Real advisory API retrieval is distinct from live Sanity and model integration. No live endpoint transcript, deployed URL, remote schema operation, or user feedback is claimed without evidence.
-
-## Submission disclosure
-
-This application supports a focused historical advisory collection, not exhaustive or real-time security intelligence. Access controls are appropriate for an invite-only demo; public scale requires shared edge rate limiting and account authentication. Remaining external setup must be completed before presenting a live end-to-end demo.
+Next.js, React, TypeScript, Node.js, Sanity Content Lake, Sanity Context MCP, OSV.dev, GitHub Security Advisories, Vercel AI SDK, Token Harbor, Vitest, and Playwright.
