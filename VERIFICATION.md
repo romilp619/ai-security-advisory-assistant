@@ -482,3 +482,14 @@ The application is ready for a controlled staging/private demo after deployment 
 - Public multi-instance deployment still needs account-based access and shared/edge rate limiting; the current access token is shared and limits are process-local.
 - If deploying on Vercel, its documented 4.5 MB function request limit is below the app's 8 MB package-lock upload limit. Either lower the application limit or choose an upload flow/host that accepts the intended file size.
 - The provider's free endpoint has shown intermittent availability in earlier runs. Monitor failures and source coverage after deployment.
+
+## GitHub source upload - 2026-09-29
+
+This update supersedes the earlier statements that the repository was uncommitted or had no remote.
+
+- Pushed the WSL project to the user's existing public repository, `romilp619/ai-security-advisory-assistant`, on `main`. GitHub now stores the source; the web app is not hosted yet.
+- Added `docs/GITHUB_SETUP.md` with architecture, environment variables, local setup, Sanity/Token Harbor integration, validation, and later hosting steps.
+- Scanned all staged files against active local credentials and common token shapes. No active credential match was found. `.env.local`, raw/import artifacts, verification output, build output, and dependencies stayed out of Git.
+- Verified TypeScript, lint, 129 offline tests (1 credential-gated skip), and the production build before upload.
+- Updated `npm run typecheck` to generate Next.js route types first, as required for a fresh checkout when `next-env.d.ts` is ignored per the installed Next.js documentation. This typecheck passed.
+- No production host, URL, runtime secret store, or hosted smoke test has been configured.

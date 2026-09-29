@@ -10,7 +10,7 @@
     "build": "next build",
     "start": "next start --hostname 127.0.0.1",
     "lint": "eslint .",
-    "typecheck": "tsc --noEmit",
+    "typecheck": "next typegen && tsc --noEmit",
     "test": "vitest run",
     "test:live": "node --env-file-if-exists=.env.local node_modules/vitest/vitest.mjs run tests/live.test.ts",
     "test:e2e": "playwright test",
