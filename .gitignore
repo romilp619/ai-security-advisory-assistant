@@ -19,3 +19,8 @@ live-verification*
 # Local one-off design research script
 render2.mjs
 next-env.d.ts
+
+# Local agent files and submission drafts
+AGENTS.md
+CLAUDE.md
+COMPETITION.md
