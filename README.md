@@ -108,7 +108,7 @@ I used my existing Sanity project **AI Security Advisory Assistant** and its exi
 
 ### How I use Sanity
 
-These are redacted views of my real Sanity setup. Account details, project and organization IDs, and trial information are obscured in the public screenshots. No tokens or MCP URL are shown.
+These screenshots show my real Sanity setup. Account details, project and organization IDs, and trial information are obscured where visible. No tokens or MCP URL are shown.
 
 1. **Keep the existing project and dataset.** I configured the app and local Sanity Studio for my existing AI Security Advisory Assistant project and its `production` dataset. I did not create a second project or dataset. The project settings screen is where I confirm which project is selected.
 
@@ -125,6 +125,10 @@ These are redacted views of my real Sanity setup. Account details, project and o
 4. **Retrieve and verify at request time.** The Next.js server connects to the Security Advisor MCP endpoint with an organization Context Viewer token and calls `initial_context` and `knowledge_base_read`. It uses a separate project Viewer token to read the published advisory records behind cited entries. The model helps select paths and passages; application code checks that paths, quotes, source links, and version conclusions agree with the records. The server also queries OSV.dev for live npm advisories, so a package is not limited to the curated 122 documents.
 
 5. **Refresh after imports.** When source records change, I rerun ingestion, rebuild the existing Knowledge Base, wait for **Entries up to date**, and run a live test and a browser query. The Context endpoint and organization token stay server-side. The local Editor token is only for importing, never for the public app.
+
+6. **Inspect the generated evidence.** The Entries view groups advisories by package and topic. This Next.js page brings related cache-poisoning and XSS records together with affected ranges, fixes, conditions, and numbered source citations. The agent can navigate to a relevant entry through MCP instead of reading every source document.
+
+   ![Sanity Context Knowledge Base entry for Next.js cache poisoning and XSS, showing grouped advisories and source citations](docs/screenshots/sanity/04-knowledge-base-entry.png)
 
 The [setup guide](docs/GITHUB_SETUP.md) explains where each credential belongs. A green **Ready** label on the Knowledge Base screen shows that its source was processed; the [live verification record](VERIFICATION.md) is the evidence that the app actually retrieved and checked it.
 
