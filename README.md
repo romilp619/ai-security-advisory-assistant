@@ -116,12 +116,6 @@ The [setup guide](docs/GITHUB_SETUP.md) explains where each credential belongs. 
 
 The current local model configuration uses Token Harbor's `deepseek-v4.1-flash:free`. Credentials stay server-side in an ignored local environment file or, later, a host's secret store.
 
-## What I Learned
-
-A citation alone does not make an answer reliable. I had to validate that selected Knowledge Base paths really existed, excerpts appeared in their claimed sources, and version conclusions agreed with source records. Separating live lookup from curated context also made partial failures visible: a model or Knowledge Base outage should not erase a completed live advisory check.
-
-The expanded advisory collection showed that broad prompts can overwhelm a model. Bounded retrieval and evidence selection made the work more predictable while keeping source links available for human review.
-
 ## Challenges
 
 - GitHub advisory records can share CVEs while listing different affected ranges or fixes. I preserve source-level differences instead of silently choosing one.
