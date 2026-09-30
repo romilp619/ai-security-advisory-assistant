@@ -11,6 +11,7 @@ dist/
 data/raw/
 data/import.ndjson
 data/ingestion-report.json
+docs/nvidia-model-check.json
 live-verification*
 *.swp
 *.swo
