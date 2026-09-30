@@ -88,7 +88,37 @@ This behavior is testable: 129 offline tests and 26 browser tests passed in the 
 
 ## How I Built It
 
-`Browser -> Next.js server -> OSV.dev + Sanity Context MCP -> verified Sanity advisory records -> version and evidence checks -> cited report`
+### Architecture
+
+```mermaid
+flowchart TB
+  Browser["Browser UI"] -->|"Question and optional version"| Research["Next.js /api/research"]
+  Browser -->|"package-lock.json"| Dependencies["Next.js /api/dependencies"]
+
+  Research -->|"Live npm lookup"| OSV["OSV.dev"]
+  Dependencies -->|"Exact installed versions"| OSV
+  Research -->|"Read curated entries"| MCP["Sanity Context MCP"]
+  MCP --> KB["Security Advisories Knowledge Base"]
+  Research -->|"Verify cited records"| Lake["Existing Sanity production dataset"]
+  Research -->|"Select paths and passages"| Model["Token Harbor model"]
+
+  OSV --> Evidence["Server-side version and evidence checks"]
+  KB --> Evidence
+  Lake --> Evidence
+  Model --> Evidence
+  Evidence --> Report["Cited findings, coverage, and activity"]
+  Report --> Browser
+
+  Dependencies --> LockfileCheck["Exact dependency version matching"]
+  OSV --> LockfileCheck
+  LockfileCheck --> Browser
+
+  GHSA["GitHub Security Advisories"] --> Importer["Local advisory importer"]
+  Importer -->|"Editor token; apply only"| Lake
+  Lake -.->|"Rebuild after imports"| KB
+```
+
+The importer runs locally and writes curated records to the existing dataset. Research reads those records through server-side credentials; dependency-file checks use OSV.dev without the model or Knowledge Base. The browser receives findings and source links, never Sanity or model API tokens.
 
 I used my existing Sanity project **AI Security Advisory Assistant** and its existing **production** dataset. An importer collects selected original GitHub Security Advisories into structured records. Sanity Context builds navigable Knowledge Base entries over those records; the app uses the Knowledge Base for relevant context and checks exact records for version boundaries. Live OSV.dev lookup extends coverage beyond the curated collection without waiting for a Knowledge Base rebuild.
 
