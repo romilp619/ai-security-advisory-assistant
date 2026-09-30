@@ -95,12 +95,14 @@ flowchart LR
   User["You ask a security question"] --> App["Next.js app"]
   App --> Live["OSV.dev: live advisories"]
   App --> Curated["Sanity: curated advisories"]
-  Live --> Check["Check versions and evidence"]
+  App --> Model["DeepSeek V4.1 Flash: selects evidence"]
+  Live --> Check["App checks versions and citations"]
   Curated --> Check
+  Model --> Check
   Check --> Answer["Answer with source links"]
 ```
 
-The app combines live advisory results with selected records from the Sanity Knowledge Base. A model helps choose relevant evidence, and application code checks version ranges and cited records before showing the answer.
+The app combines live advisory results with selected records from the Sanity Knowledge Base. DeepSeek V4.1 Flash, accessed through Token Harbor, helps select relevant evidence. Application code checks version ranges and cited records before showing the answer.
 
 The **dependency-file check** follows a separate, simpler path: upload `package-lock.json` -> check exact package versions against OSV.dev -> show matches. It does not use the model or Knowledge Base. To expand the curated source, I import selected GitHub advisories into Sanity separately and rebuild the Knowledge Base.
 
