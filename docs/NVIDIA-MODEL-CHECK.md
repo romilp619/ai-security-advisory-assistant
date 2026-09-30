@@ -42,4 +42,4 @@ The key is stored only in the ignored WSL .env.local file with mode 0600. Keys s
 
 Implementation uses NVIDIA's official /v1/chat/completions endpoint with server-side bearer authentication and schema-validated output. OpenAI retains its /v1/responses route; Anthropic remains supported.
 
-The existing Sanity project o7qa6o3y / production is unchanged. Its organization Context token and actual Knowledge Base endpoint URL are still required.
+The existing Sanity project <existing-project-id> / production is unchanged. Its organization Context token and actual Knowledge Base endpoint URL are still required.

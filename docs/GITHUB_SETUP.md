@@ -2,7 +2,7 @@
 
 This is the source for [romilp619/ai-security-advisory-assistant](https://github.com/romilp619/ai-security-advisory-assistant). GitHub stores code; a Node-compatible host is still needed to run the Next.js API routes. Hosting will be chosen later.
 
-Use the existing Sanity **AI Security Advisory Assistant** project (`o7qa6o3y`), organization (`oaewu6zvh`), and **production** dataset. Do not create another project or dataset.
+Use the existing Sanity **AI Security Advisory Assistant** project (`<existing-project-id>`), organization (`<existing-organization-id>`), and **production** dataset. Do not create another project or dataset.
 
 ## How it works
 
@@ -32,7 +32,8 @@ Copy `.env.example` to the ignored `.env.local` in WSL. Fill these values locall
 
 | Variable | Where to get it | Scope |
 | --- | --- | --- |
-| `SANITY_PROJECT_ID` | Existing project overview: `o7qa6o3y` | Public ID; runtime |
+| `SANITY_PROJECT_ID` | Existing project overview: `<existing-project-id>` | Public ID; runtime |
+| `SANITY_STUDIO_PROJECT_ID` | Copy the same project ID into this variable for Sanity Studio | Studio build/dev; embedded in its browser bundle |
 | `SANITY_DATASET` | Existing dataset: `production` | Runtime |
 | `SANITY_CONTEXT_MCP_URL` | Copy the actual URL shown by the **Security Advisor** endpoint in Sanity Context | Server runtime |
 | `SANITY_ORGANIZATION_TOKEN` | Sanity **organization** > API > Tokens > **Context Viewer** | Server runtime; a project token will not work |
@@ -48,6 +49,8 @@ Copy `.env.example` to the ignored `.env.local` in WSL. Fill these values locall
 | `RUN_LIVE_TESTS` | Set to `1` only to run real integration tests | Local test only |
 
 The GitHub personal access token used to push code is **not** an application key. Do not put it in the app environment, GitHub Actions, or documentation. Credentials pasted in chat should be rotated or revoked in their provider dashboards after use.
+
+The screenshots obscure account and project identifiers for presentation. A Sanity project ID is a public identifier, not an access token; a browser-based Studio still embeds it in its bundle. Protect the Viewer, Editor, and organization tokens.
 
 The MCP URL has the documented form `https://api.sanity.io/v1/context/organizations/<organization-id>/mcp/<endpoint-name>`; copy the exact endpoint name from Sanity rather than guessing. The organization Context Viewer token authenticates MCP. The separate project Viewer token reads structured documents. See [Sanity Context MCP](https://www.sanity.io/docs/ai/sanity-context-mcp).
 

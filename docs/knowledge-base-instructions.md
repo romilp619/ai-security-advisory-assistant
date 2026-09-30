@@ -14,7 +14,7 @@ The rules below are therefore not stylistic. They are what makes an entry machin
 
 ## Instructions text
 
-Use only the selected, published `securityAdvisory` documents from the existing o7qa6o3y / production dataset.
+Use only the selected, published `securityAdvisory` documents from the existing <existing-project-id> / production dataset.
 
 **Write prose, not tables.** Do not use Markdown tables anywhere in an entry. Tables cannot be quoted as evidence by the consuming application.
 

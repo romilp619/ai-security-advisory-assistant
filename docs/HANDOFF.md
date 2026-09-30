@@ -6,7 +6,7 @@ You are taking over a working Next.js project. Read this fully before changing a
 
 - Work only inside WSL Ubuntu-22.04. Project directory: `/home/romil/ai-security-advisory-assistant`.
 - Do not create a duplicate application or work in a Windows folder.
-- Reuse the existing Sanity project: **AI Security Advisory Assistant**, project ID `o7qa6o3y`, dataset `production`, organization `oaewu6zvh`. **Do not create another Sanity project or dataset.**
+- Reuse the existing Sanity project: **AI Security Advisory Assistant**, project ID `<existing-project-id>`, dataset `production`, organization `<existing-organization-id>`. **Do not create another Sanity project or dataset.**
 - Node lives at `/home/romil/.nvm/versions/node/v24.17.0/bin`. Before shell commands:
   ```
   export PATH=/home/romil/.nvm/versions/node/v24.17.0/bin:/usr/bin:/bin

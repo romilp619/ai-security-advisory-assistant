@@ -13,7 +13,7 @@ This record summarizes the latest checks completed in WSL Ubuntu-22.04 for `/hom
 | `npm run test:e2e` | 26 passed | Desktop and mobile Chromium; research transport mocked |
 | `RUN_LIVE_TESTS=1 npm run test:live` | Passed once in 9.97 seconds | Real model, Sanity Context MCP, and published advisory verification |
 
-The live test exercised `initial_context` and `knowledge_base_read` against the existing Sanity project (`o7qa6o3y`) and `production` dataset. It verified CVE-2025-29927 for Next.js 14.2.24, the documented 14.2.25 branch fix, and a literal quote from the retrieved Knowledge Base text. One successful run proves that path worked at that time; it does not guarantee future service availability.
+The live test exercised `initial_context` and `knowledge_base_read` against the existing Sanity project and its `production` dataset. It verified CVE-2025-29927 for Next.js 14.2.24, the documented 14.2.25 branch fix, and a literal quote from the retrieved Knowledge Base text. One successful run proves that path worked at that time; it does not guarantee future service availability.
 
 ## Live application checks
 
@@ -26,7 +26,7 @@ Two full research requests completed with both OSV.dev and the Sanity Knowledge 
 
 Both responses reported `coverage.complete = true`. The credential-free summaries are saved in [data/token-harbor-verification.json](data/token-harbor-verification.json). These are two observed requests, not a reliability or latency benchmark.
 
-The existing `production` dataset contained 122 published advisory documents after the import. The Sanity Knowledge Base was rebuilt and exposed 21 outline paths. A dependency-file check also completed against an outdated sample `package-lock.json`: four exact installed package versions were queried and all four had matching published advisory records. The check does not scan application source code or determine whether a vulnerable path is reachable.
+The existing `production` dataset contained 122 published advisory documents after the import. The Sanity Knowledge Base was rebuilt; the later dashboard screenshot shows 28 entries ready at capture, while an earlier retrieval check observed 21 outline paths. A dependency-file check also completed against an outdated sample `package-lock.json`: four exact installed package versions were queried and all four had matching published advisory records. The check does not scan application source code or determine whether a vulnerable path is reachable.
 
 ## Remaining limits
 

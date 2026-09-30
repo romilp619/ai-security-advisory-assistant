@@ -90,9 +90,31 @@ This behavior is testable: 129 offline tests and 26 browser tests passed in the 
 
 `Browser -> Next.js server -> OSV.dev + Sanity Context MCP -> verified Sanity advisory records -> version and evidence checks -> cited report`
 
-I used the existing Sanity project **AI Security Advisory Assistant** (`o7qa6o3y`) and its existing **production** dataset. An importer collects selected original GitHub Security Advisories into structured records. Sanity Context builds navigable Knowledge Base entries over those records; the app uses the Knowledge Base for relevant context and checks exact records for version boundaries. Live OSV.dev lookup extends coverage beyond the curated collection without waiting for a Knowledge Base rebuild.
+I used my existing Sanity project **AI Security Advisory Assistant** and its existing **production** dataset. An importer collects selected original GitHub Security Advisories into structured records. Sanity Context builds navigable Knowledge Base entries over those records; the app uses the Knowledge Base for relevant context and checks exact records for version boundaries. Live OSV.dev lookup extends coverage beyond the curated collection without waiting for a Knowledge Base rebuild.
 
-The current local model configuration uses Token Harbor's `deepseek-v4.1-flash:free`. Credentials stay server-side in an ignored local environment file or, later, a host's secret store. [The setup guide](docs/GITHUB_SETUP.md) explains the architecture, keys, local run, and future hosting steps.
+### How I use Sanity
+
+These are redacted views of my real Sanity setup. Account details, project and organization IDs, and trial information are obscured in the public screenshots. No tokens or MCP URL are shown.
+
+1. **Keep the existing project and dataset.** I configured the app and local Sanity Studio for my existing AI Security Advisory Assistant project and its `production` dataset. I did not create a second project or dataset. The project settings screen is where I confirm which project is selected.
+
+   ![Redacted Sanity project settings showing the existing AI Security Advisory Assistant project](docs/screenshots/sanity/01-project-settings-redacted.png)
+
+2. **Import selected source advisories.** `data/advisory-sources.json` lists original GitHub Security Advisories. `npm run ingest` fetches and validates them as a dry run; `npm run ingest -- --apply` writes the reviewed records into `production` using a project Editor token held only in the local environment. The current curated collection contains **122 published advisory documents**. The organization activity view records that I attached this dataset to the **Security Advisories** Knowledge Base and created the **Security Advisor** Context MCP endpoint.
+
+   ![Redacted Sanity organization activity showing the dataset attachment and Context MCP endpoint](docs/screenshots/sanity/02-organization-activity-redacted.png)
+
+3. **Build a navigable Knowledge Base.** In Sanity Context, I selected the `production` dataset as the source and built its entries. This screen shows **122 source documents**, a **Ready** source, and **28 generated entries** at the time of capture. Documents are the stored advisories; entries are shorter, cited paths the agent can navigate. The counts are different because one entry can summarize multiple documents, and they can change after a rebuild.
+
+   ![Redacted Sanity Context source showing 122 documents and 28 ready entries](docs/screenshots/sanity/03-knowledge-base-source-redacted.png)
+
+4. **Retrieve and verify at request time.** The Next.js server connects to the Security Advisor MCP endpoint with an organization Context Viewer token and calls `initial_context` and `knowledge_base_read`. It uses a separate project Viewer token to read the published advisory records behind cited entries. The model helps select paths and passages; application code checks that paths, quotes, source links, and version conclusions agree with the records. The server also queries OSV.dev for live npm advisories, so a package is not limited to the curated 122 documents.
+
+5. **Refresh after imports.** When source records change, I rerun ingestion, rebuild the existing Knowledge Base, wait for **Entries up to date**, and run a live test and a browser query. The Context endpoint and organization token stay server-side. The local Editor token is only for importing, never for the public app.
+
+The [setup guide](docs/GITHUB_SETUP.md) explains where each credential belongs. A green **Ready** label on the Knowledge Base screen shows that its source was processed; the [live verification record](VERIFICATION.md) is the evidence that the app actually retrieved and checked it.
+
+The current local model configuration uses Token Harbor's `deepseek-v4.1-flash:free`. Credentials stay server-side in an ignored local environment file or, later, a host's secret store.
 
 ## What I Learned
 
