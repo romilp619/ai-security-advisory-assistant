@@ -91,15 +91,15 @@ This behavior is testable: 129 offline tests and 26 browser tests passed in the 
 ### Architecture
 
 ```mermaid
-flowchart LR
-  User["You ask a security question"] --> App["Next.js app"]
-  App --> Live["OSV.dev: live advisories"]
-  App --> Curated["Sanity: curated advisories"]
-  App --> Model["DeepSeek V4.1 Flash: selects evidence"]
-  Live --> Check["App checks versions and citations"]
+flowchart TB
+  User["Your question"] --> App["Next.js app"]
+  App --> Live["OSV.dev"]
+  App --> Curated["Sanity Knowledge Base"]
+  App --> Model["DeepSeek V4.1 Flash"]
+  Live --> Check["Verify evidence"]
   Curated --> Check
   Model --> Check
-  Check --> Answer["Answer with source links"]
+  Check --> Answer["Cited answer"]
 ```
 
 The app combines live advisory results with selected records from the Sanity Knowledge Base. DeepSeek V4.1 Flash, accessed through Token Harbor, helps select relevant evidence. Application code checks version ranges and cited records before showing the answer.
