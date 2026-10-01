@@ -110,6 +110,8 @@ I used my existing Sanity project **AI Security Advisory Assistant** and its exi
 
 ### How I use Sanity
 
+**Sanity project details:** Project ID `o7qa6o3y`; dataset `production`. The project ID is a public identifier, not an access token. API tokens remain server-side and are not included here.
+
 These screenshots show my real Sanity setup. Account details, project and organization IDs, and trial information are obscured where visible. No tokens or MCP URL are shown.
 
 1. **Keep the existing project and dataset.** I configured the app and local Sanity Studio for my existing AI Security Advisory Assistant project and its `production` dataset. I did not create a second project or dataset. The project settings screen is where I confirm which project is selected.
